@@ -61,6 +61,13 @@
 <!-- PAGE LEVEL SCRIPTS -->
 <script src="js/layout.min.js" type="text/javascript"></script>
 <script src="js/components/wow.min.js" type="text/javascript"></script>
+<script>
+$(document).ready( function () {
+    var pathname = (window.location.pathname.match(/[^\/]+$/)[0]);
+    $("#cul li a").removeClass("active");
+    $("#cul li a[href='" + pathname  + "']").addClass("active");
+});
+</script>
 
 
 

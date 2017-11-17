@@ -171,7 +171,26 @@ body {
 #services {
     padding-top: 20px
 }
+#services .row a {
+  padding-top: 0px
+}
 
+/*/////product*/
+#products  div h2, 
+#products  div h3,
+#products  div h4,
+#products  div p,
+#products  div a,
+#services  div h2, 
+#services  div h3,
+#services  div h4,
+#services  div p,
+#services  div a {
+  padding-left: 10px
+}
+#products div a {
+  padding:0;
+}
 
 /*///////position*/
 .accordion-toggle i {
@@ -208,6 +227,31 @@ body {
     padding-left: 15px;
 }
 /*/////about us*/
+#abt {
+  background: 
+      linear-gradient(
+      rgba(255, 255, 255, 0.95), 
+      rgba(255, 255, 255, 0.95)
+    ),
+    url(../img/1920x1080/bck001.jpg) center center no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#aboutp p {
+  font-size: 18px;
+  color: #7a7a7a
+}
+
+#features p {
+    font-size: 18px;
+  color: #7a7a7a;
+}
+#features i {
+  color: #17bed2;
+  font-weight: 500
+}
 /*timeline*/
 
 .timeline-body img {
@@ -217,6 +261,10 @@ body {
     list-style: none;
     padding: 20px 0 20px;
     position: relative;
+}
+.timeline p {
+  font-size: 18px;
+  color: #7a7a7a
 }
     .timeline:before { /*//timeline*/
         top: 0;

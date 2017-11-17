@@ -20,38 +20,22 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse nav-collapse">
             <div class="menu-container">
-                <ul class="navbar-nav navbar-nav-right">
-                    <li class="nav-item"><a 
-                        <?php if (trim($_SERVER['PHP_SELF']) == "/web/index.php") {
-                            echo 'class="nav-item-child nav-item-hover active"';} else {
-                                echo 'class="nav-item-child nav-item-hover"';
-                            } ?>
-                        href="index.php">Home</a>
+                <ul class="navbar-nav navbar-nav-right" id="cul">
+                    <li class="nav-item"><a class="nav-item-child nav-item-hover"
+                         href="index.php">Home</a>
                     </li>
                    <!--  <li class="nav-item"><a class="nav-item-child nav-item-hover" href="pricing.html">Pricing</a></li> -->
                     <li class="nav-item">
-                        <a 
-                        <?php if (trim($_SERVER['PHP_SELF']) == "/web/about.php") {
-                            echo 'class="nav-item-child nav-item-hover active"';} else {
-                                echo 'class="nav-item-child nav-item-hover"';
-                            } ?> 
+                        <a class="nav-item-child nav-item-hover"
                         href="about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a 
-                        <?php if (trim($_SERVER['PHP_SELF']) == "/web/products.php") {
-                            echo 'class="nav-item-child nav-item-hover active"';} else {
-                                echo 'class="nav-item-child nav-item-hover"';
-                            } ?>
+                        <a class="nav-item-child nav-item-hover"
                         href="products.php">Products & Service</a>
                     </li>
                     <!-- <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">FAQ</a></li> -->
                     <li class="nav-item">
-                        <a 
-                        <?php if (trim($_SERVER['PHP_SELF']) == "/web/contact.php") {
-                            echo 'class="nav-item-child nav-item-hover active"';} else {
-                                echo 'class="nav-item-child nav-item-hover"';
-                            } ?>
+                        <a class="nav-item-child nav-item-hover"
                         href="contact.php">Contact</a>
                     </li>
                 </ul>

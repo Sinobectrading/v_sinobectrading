@@ -32,7 +32,7 @@
         <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
             <div class="parallax-content container">
                 <h1 class="carousel-title">Contact</h1>
-                <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+                <!-- <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p> -->
             </div>
         </div>
         <!--========== PARALLAX ==========-->
@@ -47,7 +47,7 @@
                     <div class="col-sm-6 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
                             <h3><a href="#">Montreal</a> <span class="text-uppercase margin-l-20">Head Office</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                           <!--  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-globe"></i>4455 Rue Cousens, St-Laurent, QC, Canada, H4S 1X5</li>
                                 <li><i class="margin-r-10 color-base icon-call-out"></i> +1 (514) 339 9333</li>
@@ -61,10 +61,13 @@
                     <div class="col-sm-6 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
                             <h3><a href="#">Toronto</a> <span class="text-uppercase margin-l-20">Operation</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 44 77 3456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> operation@acidus.com</li>
+                                <li><i class="margin-r-10 color-base icon-globe"></i>Unit 2, 29 Killaloe Rd, Vaughan, Canada L4K 2A8</li>
+                                
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> +1 (905) 660 8870
+</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i>nick.sanan@sinometalresourcesinc.com</li>
                             </ul>
                         </div>
                     </div>
@@ -79,12 +82,12 @@
                     <h2>China</h2>
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Guangzhou</a> <span class="text-uppercase margin-l-20">Head Office</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                            <h3><a href="#">Guangzhou</a> <span class="text-uppercase margin-l-20">Sales Office</span></h3>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-globe"></i>4455 Rue Cousens, St-Laurent, QC, Canada, H4S 1X5</li>
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> +1 (514) 339 9333</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> info@sinobectrading.com</li>
+                                <li><i class="margin-r-10 color-base icon-globe"></i>Room 811, Xing Pu Building A, Guan Hong Rd 12#, Science Avenue, Science City, Guangzhou, China</li>
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> +86 (20) 6665 0312</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i>colinc@sinobectrading.com</li>
                             </ul>
                         </div>
                     </div>
@@ -94,10 +97,11 @@
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
                             <h3><a href="#">Xi'An</a> <span class="text-uppercase margin-l-20">Operation</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 44 77 3456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> operation@acidus.com</li>
+                                <li><i class="margin-r-10 color-base icon-globe"></i>#1501, Block A, Wangzuo International Building, No.1 Tangyan Road, Xi'an Hi-tech Development Zone, Xi'an Shaanxi Province, China</li>
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> +86 (29) 8831 1329</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i> jerryy@sinobectrading.com</li>
                             </ul>
                         </div>
                     </div>
@@ -106,11 +110,11 @@
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Shanghai</a> <span class="text-uppercase margin-l-20">Finance</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                            <h3><a href="#">Shanghai</a> <span class="text-uppercase margin-l-20">Sales</span></h3>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 50 012 456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> finance@acidus.com</li>
+                                <li><i class="margin-r-10 color-base icon-call-out"></i>+86 18621938360</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i>liangliang.yu@sinometalresourcesinc.com</li>
                             </ul>
                         </div>
                     </div>

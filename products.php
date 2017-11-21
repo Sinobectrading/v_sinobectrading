@@ -29,75 +29,77 @@
 <!-- ///////////////Products///////////// -->
 <div class="content-lg container" id="products">
     <div class="row margin-b-40">
-        <div class="col-sm-6">
+        <div class="col-sm-12">
             <h2>Our Products</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+            <p>Sinobec is the number one Aluminum Extrusion importer in North America and covers ten major industries: manufacturing, construction, green energy, and Hi-Tech.</p>
         </div>
     </div>
     <!--// end row -->
 
-    <div class="row margin-b-50">
 
-        <div class="col-sm-3 sm-margin-b-50">
-            <a href="raw.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/rawtitle970_647.png" alt="Our Exceptional Solutions Image">
+    <!--========== PAGE LAYOUT ==========-->
+        <!-- Products-->
+        <div class="bg-color-sky-light" data-auto-height="true">
+            <div class="content-lg container">
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <h3>Aluminum upstream material</h3>
+                                <p class="margin-b-5">Billet and ingot</p>
+                                <div class="wow " data-wow-duration=".3" data-wow-delay=".1s">
+                                    <img class="img-responsive" src="img/970x647/rawtitle970_647.png" alt="Our Exceptional Solutions Image">
+                                </div>
+                                <a href="raw.php" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="service" data-height="height">
+                                <h3> Aluminum mid stream</h3>
+                                <p class="margin-b-5">Plate/sheet, coil, extrusion</p>
+                                <div class="wow " data-wow-duration=".3" data-wow-delay=".1s">
+                                    <img class="img-responsive" src="img/970x647/titleAluminum.png" alt="Our Exceptional Solutions Image">
+                                </div>
+                                <a href="aluminum.php" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <h4>Aluminum Material</h4>
-                <p>Aluminum billet and ingot</p>
-            </a>
-        </div>
 
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-3 sm-margin-b-50">
-            <a href="aluminum.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/titleAluminum.png" alt="Our Exceptional Solutions Image">
+
+                <div class="row row-space-1">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".4s">
+                            <div class="service" data-height="height">
+                                <h3>Stainless steel</h3>
+                                <p class="margin-b-5">Carbon steel, Stainless steel</p>
+                                <div class="wow " data-wow-duration=".3" data-wow-delay=".1s">
+                                    <img class="img-responsive" src="img/970x647/titlesteel.png" alt="Our Exceptional Solutions Image">
+                                </div>
+                                <a href="steel.php" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <h3>Finished products</h3>
+                                <p class="margin-b-5">Shower door / canopy / hardware</p>
+                                <div class="wow " data-wow-duration=".3" data-wow-delay=".1s">
+                                    <img class="img-responsive" src="img/970x647/finishedtitle.png" alt="Our Exceptional Solutions Image">
+                                </div>
+                                <a href="fabc.php" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <h4>Aluminum Mid Stream</h4>
-                <p>Aluminum plate/sheet, coil, extrusion</p>
-            </a>
+             </div>
         </div>
-        <!-- End Our Exceptional Solutions -->
-
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-3 sm-margin-b-50">
-            <a href="steel.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/titlesteel.png" alt="Our Exceptional Solutions Image">
-                    </div>
-                </div>
-                <h4>Steel
-                    <!-- <span class="text-uppercase margin-l-20">Design</span> -->
-                </h4>
-                <p>Carbon steel, Stainless steel</p>
-            </a>
-        </div>
-        <!-- End Our Exceptional Solutions -->
-
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-3 sm-margin-b-50">
-            <a href="finished.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/finishedtitle.png" alt="Our Exceptional Solutions Image">
-                    </div>
-                </div>
-                <h4>
-                    Finished Products
-                    <!-- <span class="text-uppercase margin-l-20">Design</span> -->
-                </h4>
-                <p>Shower door, canopy,hardware /</p>
-            </a><!-- End Our Exceptional Solutions -->
-        </div>
-        <!--// end row -->
-    </div>
- <!--// end Products -->
+        <!-- End Products-->
 </div>
 
 
@@ -109,105 +111,74 @@
 
 <div class="content-lg container" id="services">
     <div class="row margin-b-40">
-        <div class="col-sm-6">
+        <div class="col-sm-12">
             <h2>Our Service</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                <p>Sinobec is keeping tight business relationship with numerous top 500 Forbs companies. </p>
         </div>
     </div>
 
 
-    <div class="row margin-b-50">
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-4 sm-margin-b-50">
-            <a href="fabc.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/01.jpg" alt="Our Exceptional Solutions Image">
+
+    <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="content-lg container">
+            <div class="row row-space-1 margin-b-2">
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".2s">
+                        <div class="service" data-height="height">
+                            <h3>Metal Processing & Fabrication</h3>
+<!--                                 <p class="margin-b-5">Billet and ingot</p>
+-->                            <div class="wow " data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/01.jpg" alt="Our Exceptional Solutions Image">
+                            </div>
+                            <a href="fabc.php" class="content-wrapper-link"></a>    
+                        </div>
                     </div>
                 </div>
-                <h4>Fabrication</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-            </a>
-        </div>
-        <!-- End Our Exceptional Solutions -->
 
-
-
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-4 sm-margin-b-50">
-            <a href="chain.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/02.jpg" alt="Our Exceptional Solutions Image">
+                <div class="col-sm-6">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="service" data-height="height">
+                            <h3>Supply Chain</h3>
+<!--                                 <p class="margin-b-5">Plate/sheet, coil, extrusion</p>
+-->                                <div class="wow " data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/02.jpg" alt="Our Exceptional Solutions Image">
+                            </div>
+                            <a href="chain.php" class="content-wrapper-link"></a>    
+                        </div>
                     </div>
                 </div>
-                <h4>Supply Chain</h4>
-                <p>采购, 仓储, 运输, 库存管理</p>
-            </a>
-        </div>
-        <!-- End Our Exceptional Solutions -->
+            </div>
 
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-4 sm-margin-b-50" id="tmp">
-            <a href="cont.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/03.jpg" alt="Our Exceptional Solutions Image">
+
+            <div class="row row-space-1">
+                <div class="col-sm-6 sm-margin-b-2">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".4s">
+                        <div class="service" data-height="height">
+                            <h3>Consultant</h3>
+<!--                                 <p class="margin-b-5">Carbon steel, Stainless steel</p>
+-->                                <div class="wow " data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/03.jpg" alt="Our Exceptional Solutions Image">
+                            </div>
+                            <a href="cont.php" class="content-wrapper-link"></a>    
+                        </div>
                     </div>
                 </div>
-                <h4>Consultant</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-            </a>
-        </div>
-        <!-- End Our Exceptional Solutions -->
+
+                <div class="col-sm-6">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
+                        <div class="service" data-height="height">
+                            <h3>Project & Turn Key Solution</h3>
+<!--                             <p class="margin-b-5">Shower door / canopy / hardware</p>
+ -->                            <div class="wow " data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/01.jpg" alt="Our Exceptional Solutions Image">
+                            </div>
+                            <a href="os.php" class="content-wrapper-link"></a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
     </div>
-    <!--// end row -->
-
-
-    <div class="row margin-b-50">
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-4 sm-margin-b-50">
-            <a href="os.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/01.jpg" alt="Our Exceptional Solutions Image">
-                    </div>
-                </div>
-                <h4>One-Stop Solution</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-            </a>
-        </div>
-        <!-- End Our Exceptional Solutions -->
-
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-4 sm-margin-b-50">
-            <a href="dev.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/02.jpg" alt="Our Exceptional Solutions Image">
-                    </div>
-                </div>
-                <h4>Development</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-            </a>
-        </div>
-        <!-- End Our Exceptional Solutions -->
-
-        <!-- Our Exceptional Solutions -->
-        <div class="col-sm-4 sm-margin-b-50">
-            <a href="offs.php">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="img/970x647/03.jpg" alt="Our Exceptional Solutions Image">
-                    </div>
-                </div>
-                <h4>Offshore</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-            </a>
-        </div>
-        <!-- End Our Exceptional Solutions -->
-    </div>
-    <!--// end row -->
 </div> 
 
 <!--========== FOOTER ==========-->

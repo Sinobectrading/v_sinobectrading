@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
 <html lang="en" class="no-js">
 <!-- BEGIN HEAD -->
 <head> 
@@ -37,9 +26,9 @@
 <div class="bg-color-sky-light">
     <div class="content-md container">
         <div class="row margin-b-40">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
                 <h1>Raw Material</h1>
-                <p><!-- Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation --></p>
+                <p>Billet and ingot: Billet is the raw material for aluminum plates and sheets. Ingot are the raw material for aluminum extrusions. Sinobec are working with their strategy partner providing high quality billet and ingot for aluminum extrusion and plates manufacturers. Hence Sinobec gain more control on cost and quality of mid and downstream products.</p>
             </div>
         </div>
         <!--// end row -->

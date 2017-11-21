@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
 <html lang="en" class="no-js">
 <!-- BEGIN HEAD -->
 <head>
@@ -46,7 +35,7 @@
                     <!-- Contact List -->
                     <div class="col-sm-6 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Montreal</a> <span class="text-uppercase margin-l-20">Head Office</span></h3>
+                            <h3>Montreal<span class="text-uppercase margin-l-20">Head Office</span></h3>
                            <!--  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-globe"></i>4455 Rue Cousens, St-Laurent, QC, Canada, H4S 1X5</li>
@@ -60,7 +49,7 @@
                     <!-- Contact List -->
                     <div class="col-sm-6 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Toronto</a> <span class="text-uppercase margin-l-20">Operation</span></h3>
+                            <h3>Toronto<span class="text-uppercase margin-l-20">Operation</span></h3>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-globe"></i>Unit 2, 29 Killaloe Rd, Vaughan, Canada L4K 2A8</li>
@@ -82,7 +71,7 @@
                     <h2>China</h2>
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Guangzhou</a> <span class="text-uppercase margin-l-20">Sales Office</span></h3>
+                            <h3>Guangzhou<span class="text-uppercase margin-l-20">Sales Office</span></h3>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-globe"></i>Room 811, Xing Pu Building A, Guan Hong Rd 12#, Science Avenue, Science City, Guangzhou, China</li>
@@ -96,7 +85,7 @@
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Xi'An</a> <span class="text-uppercase margin-l-20">Operation</span></h3>
+                            <h3>Xi'An<span class="text-uppercase margin-l-20">Operation</span></h3>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-globe"></i>#1501, Block A, Wangzuo International Building, No.1 Tangyan Road, Xi'an Hi-tech Development Zone, Xi'an Shaanxi Province, China</li>
@@ -110,7 +99,7 @@
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Shanghai</a> <span class="text-uppercase margin-l-20">Sales</span></h3>
+                            <h3>Shanghai<span class="text-uppercase margin-l-20">Sales</span></h3>
                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p> -->
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-call-out"></i>+86 18621938360</li>

@@ -1,15 +1,4 @@
 <!DOCTYPE html>
-<!-- ==============================
-    Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
-    Version:        1.0
-    Author:         KeenThemes
-    Primary use:    Corporate, Business Themes.
-    Email:          support@keenthemes.com
-    Follow:         http://www.twitter.com/keenthemes
-    Like:           http://www.facebook.com/keenthemes
-    Website:        http://www.keenthemes.com
-    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-================================== -->
 <html lang="en" class="no-js">
 <!-- BEGIN HEAD -->
 <head> 
@@ -37,9 +26,9 @@
 <div class="bg-color-sky-light">
     <div class="content-md container">
         <div class="row margin-b-40">
-            <div class="col-sm-6">
-                <h1>Fabrication</h1>
-                <p><!-- Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation --></p>
+            <div class="col-sm-12">
+                <h1>Metal Processing and Fabrication</h1>
+                <p>Sinobec provide not only metal merchandise but also metal fabrication services. We offer customized metal processing and fabrication service for our valuable customers in various industries, including Aerospace, IT, Land Transportation vehicle. With our precision equipment and professional team, we increase the dollar value for your products. Sinobec successfully launched several processing projects for National joint aerospace projects between USA-China and Canada-China. 2017, Sinobec Suzhou factory started to operate and serve customer in IT industry.</p>
             </div>
         </div>
         <!--// end row -->

@@ -80,8 +80,8 @@
                     <div class="service" data-height="height">
                         <i class="service-icon icon-screen-tablet"></i>
                         <div class="service-info">
-                            <h3>Material Supply </h3>
-                            <p class="margin-b-5">Aim to reduce owner’s cost for our customer with competitive purchasing cost and short lead time; JIT, Accurate and flexibility. Explore the frontier in metal industry in term of technology and management.</p>
+                            <h3>Metal Products</h3>
+                            <p class="margin-b-5">Sinobec Group provides a whole series of metal products. From Aluminum billet and ingot, plate and sheet, various kind of extrusions, stainless steel, hardware. Our Indonesia and Vietnam mills are capable to provide die design, cutting, customized extrusion upon customers requests. Sinobec warehouse and distribution network are proving flexible and accurate service to our customers. </p>
                         </div>
                     </div>
                 </div>
@@ -93,8 +93,8 @@
                             <i class="service-icon icon-screen-tablet"></i>
                         </div>
                         <div class="service-info">
-                            <h3>Metal Processing & Fabrication</h3>
-                            <p class="margin-b-5">We offer customized metal processing and fabrication service for our valuable customers in various industries, including Aerospace, IT, Land Transportation vehicle. With our precision equipment and professional team, we increase the dollar value for your products.</p>
+                            <h3>Processing Service</h3>
+                            <p class="margin-b-5">We own processing centers in both North America and Far East. Our processing team are capable to offer metal processing and installation projects.We provide high notch processing service to our valuable customers in aviation, semi conduct, Medical Equipment and IT industries.</p>
                         </div>
                         <a href="#" class="content-wrapper-link"></a>    
                     </div>
@@ -107,61 +107,15 @@
                             <i class="service-icon icon-badge"></i>
                         </div>
                         <div class="service-info">
-                            <h3>Supply Chain Service Integration</h3>
-                            <p class="margin-b-5">Dedicated and tailored supply chain service to fit into your business. Diagnose your really need and solve your problem. Create value for customer with our internal SCM platform and external supply network. We provide pack of SCM service, including sourcing, purchasing, transportation, warehousing, VIM ( vendor inventory management, distribution.</p>
+                            <h3>SCM and Consulting Service</h3>
+                            <p class="margin-b-5">Targeting on customers' need, we provide tailored service to solve customer's problem and remove their operation bottleneck. We provide warehousing, VIM, international logistics, customs clearance, distribution, processing. These one station service help our customers reduce total owner's cost and increase the effective of their operation.</p>
                         </div>
                         <a href="#" class="content-wrapper-link"></a>    
                     </div>
                 </div>
             </div>
         </div>
-        <!--// end row -->
 
-        <div class="row row-space-1">
-            <div class="col-sm-4 sm-margin-b-2">
-                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
-                    <div class="service" data-height="height">
-                        <div class="service-element">
-                            <i class="service-icon icon-notebook"></i>
-                        </div>
-                        <div class="service-info">
-                            <h3>Turn Key Solution</h3>
-                            <p class="margin-b-5">Integrate high quality material, high notch service and professional project management. Our Cross-functional team consists of sourcing; purchasing; SCM; Logistics; fabrication; installation; construction;  project management will provide one stop service.</p>
-                        </div>
-                        <a href="#" class="content-wrapper-link"></a>    
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 sm-margin-b-2">
-                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-                    <div class="service" data-height="height">
-                        <div class="service-element">
-                            <i class="service-icon icon-speedometer"></i>
-                        </div>
-                        <div class="service-info">
-                            <h3>Consulting Service</h3>
-                            <p class="margin-b-5">Professional elite technology and management team provide customers unique visions. Provide expertise; cutting edge; Guide customers to success. </p>
-                        </div>
-                        <a href="#" class="content-wrapper-link"></a>    
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
-                    <div class="service" data-height="height">
-                        <div class="service-element">
-                            <i class="service-icon icon-badge"></i>
-                        </div>
-                        <div class="service-info">
-                            <h3>Technology & Business Development </h3>
-                            <p class="margin-b-5">Our inhouse experts will provide cutting edge technology and industrial expertise, The management team will lead your business or projects to the sucess. </p>
-                        </div>
-                        <a href="#" class="content-wrapper-link"></a>    
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--// end row -->
     </div>
 </div>
 <!-- End Service -->

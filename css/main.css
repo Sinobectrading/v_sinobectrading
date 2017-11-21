@@ -14,6 +14,9 @@
 body {
     font-family: 'Varela Round', sans-serif;
 }
+p {
+  color:#515769;
+}
 /*////footer*/ 
 .footer h2 {
     color: white
@@ -64,8 +67,8 @@ body {
     height: 100%;
     background: 
       linear-gradient(
-      rgba(0, 0, 0, 0.75), 
-      rgba(0, 0, 0, 0.75)
+      rgba(255, 255, 255, 0.9), 
+      rgba(255, 255, 255, 0.9)
     ),
     url(../img/one.jpg) center center no-repeat;
     background-size: cover;
@@ -151,6 +154,10 @@ body {
     padding-top: 120px;
 
 }
+.bg-color-sky-light p {
+ color: #515769;
+ font-size: 16px
+}
 .servicepage a,.servicepage span {
     color: #fff;
 }
@@ -162,6 +169,17 @@ body {
 #products {
     padding-top: 100px;
     padding-bottom: 0px;
+}
+#products p,
+#services p {
+  font-size: 16px;
+  padding-bottom: 10px
+}
+
+
+#products .content-lg,
+#services .content-lg {
+  padding-top: 0px
 }
 #products .row > div,
 #services .row > div {
@@ -240,12 +258,12 @@ body {
     background-attachment: fixed;
 }
 #aboutp p {
-  font-size: 18px;
+  font-size: 16px;
   color: #7a7a7a
 }
 
 #features p {
-    font-size: 18px;
+    font-size: 16px;
   color: #7a7a7a;
 }
 #features i {
@@ -253,7 +271,13 @@ body {
   font-weight: 500
 }
 /*timeline*/
-
+#tm {
+  padding-top: 50px;
+  padding-bottom: 100px
+}
+.page-header {
+  border-bottom: 0px ! important
+}
 .timeline-body img {
     width: 100%
 }
@@ -263,7 +287,7 @@ body {
     position: relative;
 }
 .timeline p {
-  font-size: 18px;
+  font-size: 16px;
   color: #7a7a7a
 }
     .timeline:before { /*//timeline*/
@@ -418,7 +442,9 @@ body {
 #values .ver-center {
     padding-left: 10px
 }
-
+.service {
+  padding: 20px;
+}
 
 
 
@@ -581,5 +607,7 @@ ul.timeline > li > .timeline-panel {
 .carousel-title {
   font-size: 60px
 }
+
+
 
 }

@@ -1,27 +1,39 @@
+<?php
+// Starting session
+session_start();
+?>
+<title>Sinobec Trading</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Aluminum, sinobec, trading" />
+<script type="application/x-javascript">
+	addEventListener("load", function () {
+		setTimeout(hideURLbar, 0);
+	}, false);
 
-<meta charset="utf-8"/>
-<title>Sinobectrading</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" name="author"/>
-
-<!-- GLOBAL MANDATORY STYLES -->
-<link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
-<!-- PAGE LEVEL PLUGIN STYLES -->
-<link href="css/animate.css" rel="stylesheet">
-<link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-
-<!-- THEME STYLES -->
-<link href="css/layout.css" rel="stylesheet" type="text/css"/>
+	function hideURLbar() {
+		window.scrollTo(0, 1);
+	}
+</script>
+<!-- //custom-theme -->
+<link href="/sinobectrading/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Owl-carousel-CSS -->
+<link href="/sinobectrading/css/owl.carousel.css" rel="stylesheet">
+<link href="/sinobectrading/css/team.css" rel="stylesheet"  type="text/css" media="all" />
+<link href="/sinobectrading/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome-icons -->
+<link href="/sinobectrading/css/font-awesome.css" rel="stylesheet">
 
 
-<!-- CUSTOMIZED STYLES -->
-<link href="css/main.css" rel="stylesheet" type="text/css"/>
-<!-- Favicon -->
-<link rel="shortcut icon" href="favicon.ico"/>
+<!-- //font-awesome-icons -->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+<link href="/sinobectrading/css/customized.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/sinobectrading/css/p.css">
+<link rel="stylesheet" href="/sinobectrading/css/yamm.css">
+<link rel="stylesheet" href="/sinobectrading/css/bootstrap.responsive.min.css">
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">

@@ -5,7 +5,7 @@ window.initMap = function() {
     {
       stylers: [
         {'saturation': -100},
-        {'lightness': 10},
+        {'lightness': 50},
         {'visibility': 'simplified'}
       ]
     },
@@ -18,7 +18,7 @@ window.initMap = function() {
       stylers: [{color: '#bbb'}]
     }
   ], {
-    name: 'Sinobectrading'
+    name: 'Dublin'
   });
 
   var image = new google.maps.MarkerImage(
@@ -29,13 +29,14 @@ window.initMap = function() {
 	);
 
   var customMapTypeId = 'custom_style';
-   var montreal = {lat: 45.502046, lng: -73.738588};
+
+  var brooklyn = {lat: 41.850, lng: -73.961};
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 12,
+    zoom: 6,
     scrollwheel: false,
     streetViewControl: false,
     mapTypeControl: false,
-    center: montreal, // Brooklyn.
+    center: brooklyn, // Brooklyn.
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
     }
@@ -44,9 +45,9 @@ window.initMap = function() {
   var contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">Montreal</h1>'+
+    '<h1 id="firstHeading" class="firstHeading">Brooklyn</h1>'+
     '<div id="bodyContent">'+
-    '<p>4455 Rue Cousens,<br> St-Laurent, QC, <br> Canada, H4S 1X5</p>'+
+    '<p>277 Bedford Avenue, <br> Brooklyn, NY 11211, <br> New York, USA</p>'+
     '</div>'+
     '</div>';
 
@@ -59,8 +60,8 @@ window.initMap = function() {
     map: map,
     clickable: true,
     icon: image,
-    title: 'Montreal',
-    position: montreal
+    title: 'Brooklyn',
+    position: brooklyn
   });
 
   marker.addListener('click', function() {

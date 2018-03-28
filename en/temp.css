@@ -1,0 +1,243 @@
+body, html, #home {
+  padding: 0;
+  margin: 0;
+  top: 0
+}
+.tab-content img {
+  width: 25em;
+  margin: 1em
+}
+.flex {
+  display: flex;
+  height: 83.2vh
+}
+.flex .leftimg {
+  background: #f7f7f7;
+  padding-top: 10em;
+  text-align: center;
+}
+.tab_container .tab-content .flex .righttext > h4{
+  padding-top: 4em
+}
+.flex p {
+  font-size: 0.9em
+}
+.ajaxcontent > div > p, .ajaxcontent  {
+  text-align: center;
+}
+.tab_container .tab-content .supply {
+  margin-top: 3em
+}
+.tab_container .tab-content .sharp {
+  padding-bottom: 0px;
+  margin-bottom: 0px
+}
+/*Fun begins*/
+#std .tab_container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  position: relative;
+}
+#std input, #std section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+#std label {
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+  float: left;
+  width: 16.666666666666%;
+  padding: 1.5em;
+  color: #757575;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+  margin-bottom: 0px;
+}
+#std .dataTables_length label,
+#std .dataTables_filter label {
+  font-weight: lighter;
+  font-size: 12px;
+  display: block;
+  float: left;
+  width: auto;
+  padding: 0;
+  color: #757575;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: transparent;
+  margin-bottom: 0px;
+}
+.dataTables_wrapper .dataTables_paginate .fg-button.ui-state-disabled {
+  border: 1px solid #337ab7
+}
+#std .dataTables_filter input  {
+  display: inline-block;
+  border-width: 0.5px;
+    border-style: none;
+    padding-top: 0px;
+    border: 0.5px solid #333
+}
+.modal-header .close {
+  opacity: 1;
+  font-size: 2em
+}
+#std .modal-header {
+    min-height: 10px;
+    padding-right: 2em;
+    border-bottom: 0px solid #e5e5e5;
+}
+.tab_container .thum img {
+  width: 20%
+}
+#tab1:checked ~ #Angle,
+#tab2:checked ~ #Bar,
+#tab3:checked ~ #Beam,
+#tab4:checked ~ #Channel,
+#tab5:checked ~ #Pipe,
+#tab6:checked ~ #Tube {
+  display: block;
+  padding: 0;
+  background: #fff;
+  color: #999;
+  border-bottom: 2px solid #f0f0f0;
+  min-height: 80vh;
+  height: auto;
+}
+.tab_container .tab-content p,
+.tab_container .tab-content h4,
+.tab_container .tab-content div {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+.tab_container .tab-content p {
+  margin: 1em 0;
+}
+.tab_container .tab-content h4  {
+  text-align: center;
+  padding: 0 0 1em 0;
+  color: #07a3ed;
+  font-size: 1em
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 3px #0CE;
+}
+
+.tab_container [id^="tab"]:checked + label .fa {
+  color: #0CE;
+}
+
+div.modal-dialog {
+  width: 50vw
+}
+.modal table.table {
+  width: 90% ! important
+}
+.modal .table>thead>tr>th, 
+.modal .table>tbody>tr>th, 
+.modal .table>tfoot>tr>th, 
+.modal .table>thead>tr>td, 
+.modal .table>tbody>tr>td, 
+.modal .table>tfoot>tr>td {
+  font-size: 0.8em
+}
+label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0;
+}
+  #home a.effect-3 {
+    font-size: 10px
+  }
+
+/*Media query*/
+@media only screen  and (min-width: 1367px)  and (max-width: 1920px) {
+  .tab-content img {
+    width: 20em
+  }
+  #home .yamm-content .caption h4 {
+    font-size: 0.8em
+  }
+  #home .yamm-content .w3l-button,#home .yamm-content .w3l-button a {
+    font-size: 0.75em
+  }
+  #home a.effect-3 {
+    font-size: 12px
+  }
+}
+
+
+@media only screen  and (min-width: 1025px)  and (max-width: 1366px)  {
+  .tab-content img {
+    width: 18em
+  }
+   #home .yamm-content .caption h4 {
+    font-size: 0.8em
+  }
+  #home .yamm-content .w3l-button,#home .yamm-content .w3l-button a {
+    font-size: 0.6em
+  }
+  #home a.effect-3 {
+    font-size: 12px
+  }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .tab-content img {
+    width: 20em
+  }
+   #home .yamm-content .caption h4 {
+    font-size: 0.8em
+  }
+  #home .yamm-content .w3l-button a {
+    font-size: 0.6em
+  }
+  #home a.effect-3 {
+    font-size: 12px
+  }
+} 
+
+
+@media only screen and (max-width: 930px) {
+  label span {
+    font-size: 14px;
+  }
+  label .fa {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  label span {
+    display: none;
+  }
+
+  label .fa {
+    font-size: 16px;
+  }
+
+  .tab_container {
+    width: 98%;
+  }
+}
+
+/*Content Animation*/
+@keyframes fadeInScale {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

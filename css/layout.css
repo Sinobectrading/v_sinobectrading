@@ -1,4 +1,27 @@
 @charset "UTF-8";
+/*----------------------------------------------------------------------
+
+	MASTER STYLESHEET
+
+	Project:        Metronic "Asentus" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+	Version:        1.0
+	Author:         KeenThemes
+	Primary use:    Corporate, Business Themes.
+	Email:			support@keenthemes.com
+	Follow: 		http://www.twitter.com/keenthemes
+	Like: 			http://www.facebook.com/keenthemes
+	Website:		http://www.keenthemes.com
+	Premium:		Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+
+-----------------------------------------------------------------------*/
+/* eg: @include user-select(none); */
+/* eg: @include rotate(45deg); */
+/* eg: @include translate3d(0,0,0); */
+/* eg: @include border-radius(3px); */
+/*------------------------------------------------------------------
+  	[The "base.scss" contains basic default element styles
+  		(colors, typography, margins & padding).]
+------------------------------------------------------------------*/
 html {
   overflow-x: hidden;
 }
@@ -8,13 +31,13 @@ html, html a, body {
 }
 
 body {
-  font-family: Arimo, sans-serif;
+  font-family: Hind, sans-serif;
 }
 
 p {
   font-size: 15px;
   font-weight: 400;
-  font-family: Arimo, sans-serif;
+  font-family: Hind, sans-serif;
   color: #a6a7aa;
   line-height: 1.4;
   margin-bottom: 15px;
@@ -25,12 +48,12 @@ li,
 li a {
   font-size: 16px;
   font-weight: 500;
-  font-family: Arimo, sans-serif;
+  font-family: Hind, sans-serif;
   color: #515769;
 }
 
 a {
-  font-family: Arimo, sans-serif;
+  font-family: Hind, sans-serif;
   color: #81848f;
   outline: 0;
 }
@@ -45,7 +68,7 @@ a:focus, a:hover, a:active {
   position: relative;
   font-size: 13px;
   font-weight: 600;
-  font-family: Arimo, sans-serif;
+  font-family: Hind, sans-serif;
   text-transform: uppercase;
 }
 
@@ -62,13 +85,13 @@ a:focus, a:hover, a:active {
 span {
   font-size: 14px;
   font-weight: 400;
-  font-family: Arimo, sans-serif;
+  font-family: Hind, sans-serif;
   color: #bfc1c7;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Arimo', sans-serif;
+  font-family: Hind, sans-serif;
   color: #515769;
   line-height: 1.4;
   margin: 0 0 15px;
@@ -150,7 +173,7 @@ h4 {
   position: relative;
   font-size: 17px;
   font-weight: 400;
-  font-family: Arimo, sans-serif;
+  font-family: Hind, sans-serif;
   color: #a6a7aa;
   line-height: 1.4;
   border-left: none;
@@ -376,7 +399,24 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 30px;
 }
 
- 
+.service:hover .service-element {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.service:hover .service-info {
+  -webkit-transform: translate3d(0, -30%, 0);
+  -moz-transform: translate3d(0, -30%, 0);
+  transform: translate3d(0, -30%, 0);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
 
 /*------------------------------------------------------------------
   	[Work]
@@ -390,7 +430,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .work .work-overlay:before {
-/*  position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -399,7 +439,7 @@ fieldset[disabled] .btn-theme {
   content: " ";
   transition-duration: 300ms;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);*/
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 .work .work-content {
@@ -417,20 +457,20 @@ fieldset[disabled] .btn-theme {
 }
 
 .work:hover .work-overlay:before {
-  /*background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   transition-duration: 300ms;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);*/
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 .work:hover .work-content {
-  /*opacity: 1;
+  opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   transition-duration: 300ms;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);*/
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
 /*------------------------------------------------------------------
@@ -637,7 +677,7 @@ fieldset[disabled] .btn-theme {
   display: block;
   font-size: 13px;
   font-weight: 600;
-  font-family: Arimo, sans-serif;
+  font-family: Hind, sans-serif;
   color: #fff;
   text-transform: uppercase;
   line-height: 55px;
@@ -1340,7 +1380,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .margin-b-40 {
- /* margin-bottom: 40px !important;*/
+  margin-bottom: 40px !important;
 }
 
 .margin-b-50 {

@@ -49,31 +49,36 @@
 
             <section id="Angle" class="tab-content">
                 <div class="flex">
-                    <div class="col-lg-3 col-md-4 leftimg">
+                    <div class="col-md-3 col-sm-3 leftimg">
                         <img src="../img/1920x1500/angle01.jpg" alt="">
                         <!-- <img src="../img/1920x1500/angle02.jpg" alt=""> -->
                     </div>
-                    <div class="col-lg-9 col-md-8 righttext">
+                    <div class="col-md-9 col-sm-9 righttext">
                         <h4>Angle Extrusion</h4>
                         <p>
                         6061 T6 aluminum angle is the most commonly used aluminum for structural applications. It has above average corrosion resistance, good machinability, and is excellent for welding. 6061 aluminum angle is heat-treatable, resistant to stress cracking and non-magnetic.
                         </p>
                         <p>6063 T5aluminium angle has sharp corners and is generally used where surface finish is more important than strength. 6063 Anodized Aluminum Angle offers very high corrosion resistance and high strength. 
                         </p>
-                        <p class="supply"><b>We supply with two types of aluminum angle:</b></p>
-                        <div class="ajaxcontent">
-                            <div class="col-md-6">
+                        <p class="supply"><b>We supply with two types of aluminum angle:</b> (Click to see possible existing product profiles)</p>
+                        <div class="ajaxcontent clearfix">
+                            <div class="col-md-6 col-sm-6">
                                 <p class="sharp">Radius Corner</p>
                                 <a href="ex/AngleRadiusInside.html" data-remote="false" data-toggle="modal" data-target="#myModal_1">
                                     <img src="../img/650_500/AngleRadiusInside.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <p class="sharp">Sharp Corner</p>
                                 <a href="ex/AngleSharpCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_1">
                                     <img src="../img/650_500/AngleSharpCorner.jpg" alt="">
                                 </a>
                             </div>
+                        </div>
+                        <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +88,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+                                <h4 class="modal-title" id="myModalLabel">Profile</h4>
                             </div>
                             <div class="modal-body">
                             ...
@@ -96,6 +101,7 @@
                     </div>
                 </div>
             </section>
+
 
             <section id="Bar" class="tab-content">
                 <div class="flex">
@@ -114,26 +120,31 @@
                         <p>
                             1060, 6005A-T6, 6026-T6, 6060-T5, 6060-T66, 6061, 6061-T4, 6061-T6, 6061-T6511, 6063-T1, 6063-T5, 6063-T591, 6063-T6
                         </p>
-                        <p class="supply"><b>We supply with three types of aluminum bar:</b></p>
+                        <p class="supply"><b>We supply with three types of aluminum bar:</b> (Click to see possible existing product profiles)</p>
                         <div class="ajaxcontent">
-                            <div class="col-md-4">
+                            <div class="col-md-4  col-sm-4">
                                 <p class="sharp">Bar Round Corner</p>
                                 <a href="ex/BarRound.html" data-remote="false" data-toggle="modal" data-target="#myModal_2">
                                     <img src="../img/650_500/BarRound.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4  col-sm-4">
                                 <p class="sharp">Bar Sharp Corner</p>
                                 <a href="ex/BarSharpCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_2">
                                     <img src="../img/650_500/BarSharpCorner.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4  col-sm-4">
                                 <p class="sharp">Bar Round (Rod)</p>
                                 <a href="ex/Rod.html" data-remote="false" data-toggle="modal" data-target="#myModal_2">
                                     <img src="../img/650_500/Rod.jpg" alt="">
                                 </a>
                             </div>
+                        </div>
+                        <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
                         </div>
                     </div>
                 </div>
@@ -143,7 +154,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+                                <h4 class="modal-title" id="myModalLabel">Profile</h4>
                             </div>
                             <div class="modal-body">
                             ...
@@ -176,20 +187,25 @@
                         <p>
                             6005, 6061
                         </p>
-                        <p class="supply"><b>We supply with two types of aluminum beam:</b></p>
+                        <p class="supply"><b>We supply with two types of aluminum beam:</b> (Click to see possible existing product profiles)</p>
                         <div class="ajaxcontent">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <p class="sharp">Beam Radius Inside</p>
                                 <a href="ex/BeamRadiusInside.html" data-remote="false" data-toggle="modal" data-target="#myModal_3">
                                     <img src="../img/650_500/BeamRadiusInside.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <p class="sharp">Beam Square Corner</p>
                                 <a href="ex/BeamSquareCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_3">
                                     <img src="../img/650_500/BeamSquareCorner.jpg" alt="">
                                 </a>
                             </div>
+                        </div>
+                        <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
                         </div>
                     </div>
                 </div>
@@ -199,7 +215,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+                                <h4 class="modal-title" id="myModalLabel">Profile</h4>
                             </div>
                             <div class="modal-body">
                             ...
@@ -212,6 +228,7 @@
                     </div>
                 </div>
             </section>
+
 
             <section id="Channel" class="tab-content">
                 <div class="flex">
@@ -229,9 +246,9 @@
                         <p>
                             6005-T5, 6060-T5, 6060-T66, 6061-T6, 6061-T6511, 6063-T4, 6063-T5, 6063-T52, 6063-T6
                         </p>
-                        <p class="supply"><b>We supply with two types of aluminum channel:</b></p>
+                        <p class="supply"><b>We supply with two types of aluminum channel:</b> (Click to see possible existing product profiles)</p>
                         <div class="ajaxcontent">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <p class="sharp">Channel Association</p>
                                 <a href="ex/ChannelAssociation.html" data-remote="false" data-toggle="modal" data-target="#myModal_4">
                                     <img src="../img/650_500/ChannelAssociation.jpg" alt="">
@@ -239,12 +256,17 @@
                             </div>
                         </div>
                         <div class="ajaxcontent">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <p class="sharp">Channel Square Corners</p>
                                 <a href="ex/ChannelSquareCorners.html" data-remote="false" data-toggle="modal" data-target="#myModal_4">
                                     <img src="../img/650_500/ChannelSquareCorners.jpg" alt="">
                                 </a>
                             </div>
+                        </div>
+                        <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
                         </div>
                     </div>
                 </div>
@@ -254,7 +276,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+                                <h4 class="modal-title" id="myModalLabel">Profile</h4>
                             </div>
                             <div class="modal-body">
                             ...
@@ -287,7 +309,7 @@
                         <p>
                             6061-T6, 6061-T6511, 6063-T4, 6063-T52
                         </p>
-                        <p class="supply"><b>We supply with one type of aluminum pipe:</b></p>
+                        <p class="supply"><b>We supply with one type of aluminum pipe:</b> (Click to see possible existing product profiles)</p>
                         <div class="ajaxcontent">
                             <div class="col-md-6">
                                 <p class="sharp">Pipe</p>
@@ -295,6 +317,11 @@
                                     <img src="../img/650_500/Pipe.jpg" alt="">
                                 </a>
                             </div>
+                        </div>
+                        <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
                         </div>
                     </div>
                 </div>
@@ -304,7 +331,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+                                <h4 class="modal-title" id="myModalLabel">Profile</h4>
                             </div>
                             <div class="modal-body">
                             ...
@@ -336,26 +363,31 @@
                         <p>
                             5356-T5, 6060-T5, 6061-T6, 6061-T6511, 6063-T5, 6063-T52, 6063-T66s
                         </p>
-                        <p class="supply"><b>We supply with three types of aluminum beam:</b></p>
-                        <div class="ajaxcontent">
-                            <div class="col-md-4">
+                        <p class="supply"><b>We supply with three types of aluminum beam:</b> (Click to see possible existing product profiles)</p>
+                        <div class="ajaxcontent clearfix">
+                            <div class="col-md-4 col-sm-4">
                                 <p class="sharp">Rectangular Tube (Round Corner)</p>
                                 <a href="ex/RectangularTubeRoundCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_6">
                                     <img src="../img/650_500/RectangularTubeRoundCorner.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4">
                                 <p class="sharp">Rectangular Tube (Sharp Corner)</p>
                                 <a href="ex/RectangularTubeSharpCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_6">
                                     <img src="../img/650_500/RectangularTubeSharpCorner.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4">
                                 <p class="sharp">Round Tubing</p>
                                 <a href="ex/RoundTubing.html" data-remote="false" data-toggle="modal" data-target="#myModal_6">
                                     <img src="../img/650_500/RoundTubing.jpg" alt="">
                                 </a>
                             </div>
+                        </div>
+                        <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
                         </div>
                     </div>
                 </div>
@@ -365,7 +397,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <!-- <h4 class="modal-title" id="myModalLabel">Modal title</h4> -->
+                                <h4 class="modal-title" id="myModalLabel">Profile</h4>
                             </div>
                             <div class="modal-body">
                             ...

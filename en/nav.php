@@ -30,11 +30,7 @@
 								<li><a href="services1.php">Event Management</a></li>
 							</ul>
 						</li> -->
-						<li
-						<?php if (trim($_SERVER['PHP_SELF']) == "/sinobectrading/en/products.php") {
-                              echo 'class="active"';} ?>
-						><a href="products.php" class="effect-3">Products</a></li>
-						
+						 
 						<!-- <li class="dropdown">
 							<a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Short Codes <b class="caret"></b></a>
 							<ul class="dropdown-menu agile_short_dropdown">
@@ -61,7 +57,7 @@
 			                          			<div class="caption">
 			                          				<h4>Aluminum RAW Material</h4>
 			                          				<div class="w3l-button">
-			                          					<a class="hvr-shutter-out-vertical" href="raw.php">Ingot and Billet</a>
+			                          					<a class="hvr-shutter-out-vertical" href="raw.php">Ingot & Billet</a>
 			                          				</div>
 			                          			</div>
 			                          		</div>
@@ -71,13 +67,13 @@
 			                          		<div class="thumbnail clearfix">
 			                          			<img alt="260x130" src="../img/260_130/std.jpg">
 			                          			<div class="caption">
-			                          				<h4>Extrusion</h4>
+			                          				<h4>Aluminum Mid Products</h4>
 			                          				<div class="w3l-button">
 			                          					<a class="hvr-shutter-out-vertical" href="standard.php">
-			                          						Standard
+			                          						Extrusion
 			                          					</a>
 			                          					and 
-			                          					<a class="hvr-shutter-out-vertical toright" href="customized.php">		Customized
+			                          					<a class="hvr-shutter-out-vertical toright" href="sheet.php">		Flat Rolled
 			                          					</a>
 													</div>
 			                          			</div>
@@ -112,28 +108,6 @@
 			                    </li>
 			                  </ul>
 			                </li>     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 						<li
 						<?php if (trim($_SERVER['PHP_SELF']) == "/sinobectrading/en/contact.php") {

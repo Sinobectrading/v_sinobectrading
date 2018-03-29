@@ -78,6 +78,8 @@
 
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
+<script src="../js/dataTables.responsive.min.js"></script>
+<script src="../js/responsive.bootstrap.js"></script>
 
 
 <!-- <link rel="stylesheet " href="/sinobectrading/css/chocolat.css " type="text/css" media="all" /> -->

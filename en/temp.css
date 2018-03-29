@@ -7,44 +7,83 @@ body, html, #home {
   width: 25em;
   margin: 1em
 }
-.flex {
-  display: flex;
-  height: 83.2vh
+
+.tab-content .modal-body {
+  padding: 0px;
 }
-.flex .leftimg {
-  background: #f7f7f7;
+.tab-content .modal-body .dataTables_wrapper {
+  padding : 2em 2.5em;
+}
+.bold {
+  font-weight: 900
+}
+.btm {
+  clear: both;
+  position: absolute;
+  bottom: 2vh;
+  padding: 2em;
+  margin-left: -15px;
+  border-top: 0.5px solid #07a3ed
+}
+#sheet .righttext {
+  padding-left: 5em;
+  padding-right: 5em
+}
+#std .flex {
+  display: flex;
+  min-height: 83.2vh;
+  height: auto
+}
+#sheet .flex {
+  display: flex;
+  height: 80vh
+}
+#std .flex .leftimg {
+  background: #f7f7f7  ;
   padding-top: 10em;
   text-align: center;
 }
-.tab_container .tab-content .flex .righttext > h4{
-  padding-top: 4em
+#sheet .flex .leftimg {
+  background: #f7f7f7  ;
+  padding-top: 5em;
+  text-align: center;
 }
-.flex p {
+.tab_container .tab-content .flex .righttext > h4{
+  padding : 3em 0 2em 0
+}
+#std .flex p {
   font-size: 0.9em
+}
+#sheet .flex p,
+#sheet .flex li {
+  font-size: 0.8em
 }
 .ajaxcontent > div > p, .ajaxcontent  {
   text-align: center;
 }
 .tab_container .tab-content .supply {
-  margin-top: 3em
+  margin-top: 2em
 }
 .tab_container .tab-content .sharp {
   padding-bottom: 0px;
   margin-bottom: 0px
 }
 /*Fun begins*/
-#std .tab_container {
+#std .tab_container,
+#sheet .tab_container {
   width: 100%;
   margin: 0 auto;
   padding-top: 10px;
   position: relative;
 }
-#std input, #std section {
+#std input, #std section,
+#sheet input, #sheet section {
   clear: both;
   padding-top: 10px;
   display: none;
 }
-#std label {
+#std label,
+#sheet label {
   font-weight: 500;
   font-size: 14px;
   display: block;
@@ -55,11 +94,16 @@ body, html, #home {
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  background: #f0f0f0;
+  background: #E8E9EB;
   margin-bottom: 0px;
 }
+#sheet label {
+  width: 25%
+}
 #std .dataTables_length label,
-#std .dataTables_filter label {
+#std .dataTables_filter label,
+#sheet .dataTables_length label,
+#sheet .dataTables_filter label {
   font-weight: lighter;
   font-size: 12px;
   display: block;
@@ -76,7 +120,8 @@ body, html, #home {
 .dataTables_wrapper .dataTables_paginate .fg-button.ui-state-disabled {
   border: 1px solid #337ab7
 }
-#std .dataTables_filter input  {
+#std .dataTables_filter input,
+#sheet .dataTables_filter input  {
   display: inline-block;
   border-width: 0.5px;
     border-style: none;
@@ -84,13 +129,16 @@ body, html, #home {
     border: 0.5px solid #333
 }
 .modal-header .close {
+  color: #fff;
   opacity: 1;
   font-size: 2em
 }
-#std .modal-header {
+#std .modal-header,
+#sheet .modal-header {
     min-height: 10px;
     padding-right: 2em;
     border-bottom: 0px solid #e5e5e5;
+    background: #07a3ed
 }
 .tab_container .thum img {
   width: 20%
@@ -100,13 +148,23 @@ body, html, #home {
 #tab3:checked ~ #Beam,
 #tab4:checked ~ #Channel,
 #tab5:checked ~ #Pipe,
-#tab6:checked ~ #Tube {
+#tab6:checked ~ #Tube,
+#tab7:checked ~ #Embossed,
+#tab8:checked ~ #Plate,
+#tab9:checked ~ #Coil,
+#tab10:checked ~ #pCoil {
   display: block;
   padding: 0;
   background: #fff;
   color: #999;
   border-bottom: 2px solid #f0f0f0;
   min-height: 80vh;
+  height: auto;
+}
+#tab7:checked ~ #Embossed,
+#tab8:checked ~ #Plate,
+#tab9:checked ~ #Coil {
+  min-height: 75vh;
   height: auto;
 }
 .tab_container .tab-content p,
@@ -119,20 +177,24 @@ body, html, #home {
 .tab_container .tab-content p {
   margin: 1em 0;
 }
+.tab_container .tab-content .modal-header h4 {
+  color: #fff
+}
 .tab_container .tab-content h4  {
   text-align: center;
-  padding: 0 0 1em 0;
+  padding: 0;
   color: #07a3ed;
-  font-size: 1em
+  font-size: 1em;
 }
 
 .tab_container [id^="tab"]:checked + label {
-  background: #fff;
+  background: #f7f7f7 ! important;
   box-shadow: inset 0 3px #0CE;
+  
 }
 
-.tab_container [id^="tab"]:checked + label .fa {
-  color: #0CE;
+.tab_container [id^="tab"]:checked + label span {
+  color: #07a3ed
 }
 
 div.modal-dialog {
@@ -174,7 +236,14 @@ label .fa {
 }
 
 
-@media only screen  and (min-width: 1025px)  and (max-width: 1366px)  {
+@media only screen  and (min-width: 1081px)  and (max-width: 1366px)  {
+  div.f-bg-w3l {
+    padding: 1em 0;
+    font-size: 12px
+  }
+  #std .tab_container, #sheet .tab_container {
+    padding-top: 0px
+  }
   .tab-content img {
     width: 18em
   }
@@ -182,18 +251,39 @@ label .fa {
     font-size: 0.8em
   }
   #home .yamm-content .w3l-button,#home .yamm-content .w3l-button a {
-    font-size: 0.6em
+    font-size: 0.8em
   }
   #home a.effect-3 {
     font-size: 12px
   }
+   .tab_container .tab-content .flex div.righttext > h4 {
+    padding: 1.5em 0 1em 0
+  }
 }
 
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-  .tab-content img {
-    width: 20em
+@media only screen and (min-width : 768px) and (max-width : 1080px) {
+  div.f-bg-w3l {
+    padding: 1em 0;
+    font-size: 10px
   }
+  div.f-bg-w3l p {
+    font-size: 10px
+  }
+  #std .tab_container, #sheet .tab_container {
+    padding-top: 0px
+  }
+  #std .tab-content img {
+    width: 12em;
+    margin-bottom: 3em
+  }
+  #sheet {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+   #sheet .tab-content img {
+    width: 10em;
+   }
    #home .yamm-content .caption h4 {
     font-size: 0.8em
   }
@@ -201,6 +291,20 @@ label .fa {
     font-size: 0.6em
   }
   #home a.effect-3 {
+    font-size: 12px
+  }
+  .btm {
+    clear: both;
+    position: relative;
+    bottom: 2vh;
+    padding: 2em;
+    margin-left: -15px;
+    border-top: 0.5px solid #07a3ed
+  }
+  div.modal-dialog {
+    width: 70%
+  }
+  #sheet .tab_container label span {
     font-size: 12px
   }
 } 
@@ -215,19 +319,131 @@ label .fa {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .btm {
+    clear: both;
+    position: relative;
+    bottom: 2vh;
+    padding: 2em;
+    margin-left: -15px;
+    border-top: 0.5px solid #07a3ed
+  }
+  #std .tab_container, #sheet .tab_container {
+    padding-top: 0px
+  }
   label span {
     display: none;
   }
-
   label .fa {
     font-size: 16px;
   }
-
+  .tab_container .thum img {
+    width: 60%
+  }
   .tab_container {
     width: 98%;
   }
+  #sheet .flex,
+  #std .flex {
+    display: block
+  }
+  #sheet .flex > div,
+  #std .flex > div {
+    clear: both
+  }
+  .tab-content img  {
+    width: 90vw;
+    padding: 5em
+  }
+  .righttext   {
+    padding: 2em;
+  }
+  #std .flex .leftimg, #sheet .flex .leftimg {
+    padding-top: 0;
+  }
+  div.modal-dialog {
+    width: 80vw;
+  }
+  .modal table.table {
+    width: 100% ! important
+  }
+  .tab-content img {
+    width: 12em;
+    margin-bottom: 3em
+  }
 }
+
+@media only screen and (max-width: 480px) {
+  .btm {
+    clear: both;
+    position: relative;
+    bottom: 2vh;
+    padding: 2em;
+    margin-left: -15px;
+    border-top: 0.5px solid #07a3ed
+  }
+  .tab-content img {
+    width: 12em;
+    margin-bottom: 3em
+  }
+  #std .tab_container .thum img {
+    width: 220%
+  }
+  #sheet .tab_container .thum img {
+    width: 120%
+  }
+  .tab-content img {
+    width: 12em;
+  }
+  #sheet .flex,
+  #std .flex {
+    display: block;
+    height: auto;
+  }
+   #std .flex .leftimg {
+    padding-top: 0;
+  }
+  #sheet .flex .leftimg {
+    padding-top: 1.5em
+  }
+  #sheet .righttext {
+    padding: 2em;
+  }
+  .tab_container label span {
+    display: none;
+  }
+    #std .tab_container, #sheet .tab_container {
+    padding-top: 0px
+  }
+  div.modal-dialog {
+    width: 90vw;
+  }
+  .modal-header {
+    padding: 5px 0
+  }
+  .modal table.table {
+    width: 100% ! important;
+ }
+ table.dataTable tr td {
+  padding: 10px 12px ! important;
+ }
+ .tab-content .modal-body .dataTables_wrapper {
+    padding: 1.5em 1em;
+ }
+   #sheet {
+    padding: 0
+   }
+   #sheet .tab_container .tab-content .flex .righttext > h4 {
+      padding: 1em 0;
+   }
+   .f-bg-w3l {
+    padding: 1em 2em;
+   }
+   p.copyright {
+    font-size: 8px
+   }
+}
+
 
 /*Content Animation*/
 @keyframes fadeInScale {

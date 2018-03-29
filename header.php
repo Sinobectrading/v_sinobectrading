@@ -37,3 +37,5 @@ session_start();
 
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
+<link rel="stylesheet" href="/sinobectrading/css/responsive.dataTables.min.css">
+<link rel="stylesheet" href="/sinobectrading/css/responsive.bootstrap.min.css">

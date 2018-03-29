@@ -2061,6 +2061,15 @@ h3.agileits-icons-title {
 }
 
 @media (max-width: 480px) {
+ .thumbnail > img {
+    display: none
+  }
+  .thumbnail .caption h4 {
+    font-size: 12px
+  }
+  .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #333;
+  }
     .bs-glyphicons li {
         width: 31%;
     }
@@ -3550,6 +3559,7 @@ span.simply-word {
     }
     .agileits_w3layouts_banner_nav {
         padding: 0em 1em;
+        background: #333
     }
     #three_grids {
         display: block;
@@ -4515,6 +4525,10 @@ span.simply-word {
         width: 82%;
     }
 }
-
+body {
+    padding : 0px ! important;
+    padding-left: 0px ! important;
+    padding-right: 0px ! important;
+  }
 
 /*--//responsive--*/

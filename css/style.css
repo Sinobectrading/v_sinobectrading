@@ -1974,7 +1974,19 @@ h3.agileits-icons-title {
     text-align: center;
     word-wrap: break-word;
 }
-
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+    .yamm-content .caption h4 {
+        font-size: 14px
+      }
+    .yamm-content .w3l-button a {
+        padding: 0.8em 0;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .yamm-content .thumbnails li {
+        list-style: none;
+    }
+}
 @media (max-width:1080px) {
     .icon-box {
         width: 33.33%;
@@ -2082,6 +2094,37 @@ h3.agileits-icons-title {
     .services-breadcrumb .agile_inner_breadcrumb {
         margin-top: 90px
     }
+     .yamm .yamm-content {
+      padding: 0px
+   }
+   .yamm-content .thumbnail {
+    margin-bottom: 0px
+   }
+   .navbar-nav>li.language>a {
+    margin-top: 5px
+   }
+   .thumbnail .caption h4 {
+    font-size: 11px
+   }
+   .w3l-button a {
+    font-size: 0.6em
+   }
+   li.language a {
+    font-size: 0.8em
+   }
+   .yamm div.yamm-content {
+    padding: 5px 0px;
+   }
+   #link-effect-2 ul.nav-mega.navbar-nav>li {
+      line-height: 1.2
+    }
+   #link-effect-2 ul.nav-mega.navbar-nav>li>a {
+    padding: 5px 0;
+    font-size: 0.8em
+   }
+   #link-effect-2 ul.nav-mega.navbar-nav>li.language>a {
+    padding: 0px
+   }
 }
 
 @media (max-width: 414px) {

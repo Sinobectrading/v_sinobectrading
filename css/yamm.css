@@ -50,6 +50,16 @@
   right: 0;
 }
 @media (max-width: 969px) {
+  .yamm-content .caption h4 {
+    font-size: 14px
+  }
+  .yamm-content .caption  .w3l-button,
+  .yamm-content .caption  .w3l-button a {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    padding: 0.2em 0
+  }
   .yamm .dropdown.yamm-fullwidth .dropdown-menu {
     width: auto;
   }

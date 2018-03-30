@@ -4,6 +4,15 @@
 <link rel="stylesheet" href="temp.css">
 <style>
  html { overflow: scroll; } 
+ .w3layouts_footer_grid {
+    display: none;
+ }
+ .f-bg-w3l {
+    padding-bottom: 1em;
+ }
+ p.copyright {
+    margin-top: 1em;
+ }
 </style>
 <body>
 <!-- Header -->
@@ -49,11 +58,11 @@
 
             <section id="Angle" class="tab-content">
                 <div class="flex">
-                    <div class="col-md-3 col-sm-3 leftimg">
+                    <div class="col-lg-3 col-md-4 leftimg">
                         <img src="../img/1920x1500/angle01.jpg" alt="">
                         <!-- <img src="../img/1920x1500/angle02.jpg" alt=""> -->
                     </div>
-                    <div class="col-md-9 col-sm-9 righttext">
+                    <div class="col-lg-9 col-md-8 righttext">
                         <h4>Angle Extrusion</h4>
                         <p>
                         6061 T6 aluminum angle is the most commonly used aluminum for structural applications. It has above average corrosion resistance, good machinability, and is excellent for welding. 6061 aluminum angle is heat-treatable, resistant to stress cracking and non-magnetic.

@@ -319,6 +319,16 @@ label .fa {
   }
 }
 
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #sheet .tab-content img {
+    padding: 0em
+  }
+}
+
+
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .btm {
     clear: both;
@@ -347,13 +357,13 @@ label .fa {
   #std .flex {
     display: block
   }
-  #sheet .flex > div,
+/*  #sheet .flex > div,
   #std .flex > div {
     clear: both
-  }
-  .tab-content img  {
-    width: 90vw;
-    padding: 5em
+  }*/
+  #std .tab-content img  {
+    width: 12em;
+    padding: 0em
   }
   .righttext   {
     padding: 2em;
@@ -371,7 +381,18 @@ label .fa {
     width: 12em;
     margin-bottom: 3em
   }
+  #link-effect-2 ul.nav-mega.navbar-nav>li>a {
+    padding: 5px 0
+   }
+   #link-effect-2 ul.nav-mega.navbar-nav>li.language>a {
+    padding: 0px
+   }
+   #link-effect-2 ul.nav-mega.navbar-nav>li {
+      line-height: 1.2
+    }
 }
+
+
 
 @media only screen and (max-width: 480px) {
   .btm {
@@ -384,13 +405,16 @@ label .fa {
   }
   .tab-content img {
     width: 12em;
-    margin-bottom: 3em
+  /*  margin-bottom: 3em*/
+  }
+  #std label, #sheet label {
+    padding: 1em 0.5em
   }
   #std .tab_container .thum img {
-    width: 220%
+    width: 100%
   }
   #sheet .tab_container .thum img {
-    width: 120%
+    width: 100%
   }
   .tab-content img {
     width: 12em;
@@ -412,7 +436,7 @@ label .fa {
   .tab_container label span {
     display: none;
   }
-    #std .tab_container, #sheet .tab_container {
+  #std .tab_container, #sheet .tab_container {
     padding-top: 0px
   }
   div.modal-dialog {
@@ -423,13 +447,13 @@ label .fa {
   }
   .modal table.table {
     width: 100% ! important;
- }
- table.dataTable tr td {
+  }
+  table.dataTable tr td {
   padding: 10px 12px ! important;
- }
- .tab-content .modal-body .dataTables_wrapper {
+  }
+  .tab-content .modal-body .dataTables_wrapper {
     padding: 1.5em 1em;
- }
+  }
    #sheet {
     padding: 0
    }
@@ -444,6 +468,21 @@ label .fa {
    }
 }
 
+
+@media only screen and (max-width: 320px) {
+  #std label {
+    padding: 0.7em 0.5em 1em 0.5em
+  }
+  #std .tab_container .thum img {
+    width: 100%
+  }
+  #sheet label {
+
+  }
+  #sheet .tab_container .thum img {
+    width: 80%
+  }
+}
 
 /*Content Animation*/
 @keyframes fadeInScale {

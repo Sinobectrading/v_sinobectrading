@@ -13,14 +13,12 @@
  p.copyright {
     margin-top: 1em;
  }
-
 </style>
 <body>
 <!-- Header -->
 <?php include_once 'nav.php'; ?>
 <div class="allcontain">
     <div id="std" class="col-md-12 abc">
-        <div class="visible-xs"><h5>Aluminum Standard Extrusion</h5></div>
          <div class="tab_container">
             <input id="tab1" type="radio" name="tabs" checked>
             <label for="tab1" class="thum">
@@ -37,19 +35,19 @@
             <input id="tab3" type="radio" name="tabs">
             <label for="tab3" class="thum">
                 <img src="../img/png/beam.png" alt="">
-                <span class="itemname">Beam</span>
+                <span class="itemname">Faisceau</span>
             </label>
 
             <input id="tab4" type="radio" name="tabs">
             <label for="tab4" class="thum">
                 <img src="../img/png/channel.png" alt="">
-                <span class="itemname">Channel</span>
+                <span class="itemname">Canal</span>
             </label>
 
             <input id="tab5" type="radio" name="tabs">
             <label for="tab5" class="thum">
                 <img src="../img/png/pipe.png" alt="">
-                <span class="itemname">Pipe</span>
+                <span class="itemname">Tuyau</span>
             </label>
 
             <input id="tab6" type="radio" name="tabs">
@@ -65,22 +63,23 @@
                         <!-- <img src="../img/1920x1500/angle02.jpg" alt=""> -->
                     </div>
                     <div class="col-lg-9 col-md-8 righttext">
-                        <h4>Angle Extrusion</h4>
+                        <h4>Extrusion d'angle</h4>
                         <p>
-                        6061 T6 aluminum angle is the most commonly used aluminum for structural applications. It has above average corrosion resistance, good machinability, and is excellent for welding. 6061 aluminum angle is heat-treatable, resistant to stress cracking and non-magnetic.
+                        L'aluminium 6061 T6 est l'aluminium le plus couramment utilisé pour les applications structurelles. Il a une résistance à la corrosion supérieure à la moyenne, une bonne usinabilité et est excellent pour le soudage. L'angle d'aluminium 6061 est thermo-traitable, résistant à la fissuration sous contrainte et non magnétique.
                         </p>
-                        <p>6063 T5aluminium angle has sharp corners and is generally used where surface finish is more important than strength. 6063 Anodized Aluminum Angle offers very high corrosion resistance and high strength. 
+                        <p>
+                        6063 L'angle T5aluminium a des angles vifs et est généralement utilisé lorsque la finition de surface est plus importante que la résistance. 6063 L'Anodized Aluminum Angle offre une très haute résistance à la corrosion et une résistance élevée.
                         </p>
-                        <p class="supply"><b>We supply with two types of aluminum angle:</b> (Click to see possible existing product profiles)</p>
+                        <p class="supply"><b>Nous fournissons avec deux types d'angle en aluminium:</b> (Cliquez pour voir les profils de produits existants possibles)</p>
                         <div class="ajaxcontent clearfix">
                             <div class="col-md-6 col-sm-6">
-                                <p class="sharp">Radius Corner</p>
+                                <p class="sharp">Rayon de coin</p>
                                 <a href="ex/AngleRadiusInside.html" data-remote="false" data-toggle="modal" data-target="#myModal_1">
                                     <img src="../img/650_500/AngleRadiusInside.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <p class="sharp">Sharp Corner</p>
+                                <p class="sharp">Angle vif</p>
                                 <a href="ex/AngleSharpCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_1">
                                     <img src="../img/650_500/AngleSharpCorner.jpg" alt="">
                                 </a>
@@ -88,8 +87,8 @@
                         </div>
                         <div class="clearfix btm">
                             <p>
-                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
-                            <p>If you need them please contact us for your order.</p>
+                            * Nous offrons à nos clients la conception de produits, le prototypage, la fabrication, l'usinage CNC et les finitions d'extrusion, ainsi que des solutions de chaîne d'approvisionnement personnalisées. Nous pouvons choisir des écrous et des boulons ou d'autres accessoires en aluminium avec le profil en aluminium.</p>
+                            <p>Si vous en avez besoin, veuillez nous contacter pour votre commande.</p>
                         </div>
                     </div>
                 </div>
@@ -99,7 +98,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Profile</h4>
+                                <h4 class="modal-title" id="myModalLabel">Profil</h4>
                             </div>
                             <div class="modal-body">
                             ...
@@ -123,30 +122,30 @@
                     <div class="col-lg-9 col-md-8 righttext">
                         <h4>Bar Extrusion</h4>
                         <p>
-                        Aluminum Bar extrusion is widely used in all walks of life,such as cars,ships,aerospace,aviation,electronics,agriculture, mechanical and electrical,home.
+                        L'extrusion de barre en aluminium est très utilisée dans tous les secteurs de la vie, tels que les voitures, les navires, l'aérospatiale, l'aviation, l'électronique, l'agriculture, mécanique , électrique et la maison.
                         </p>
                         <p class="supply">
-                            Available Alloy
+                            Alliage disponible
                         </p>
                         <p>
                             1060, 6005A-T6, 6026-T6, 6060-T5, 6060-T66, 6061, 6061-T4, 6061-T6, 6061-T6511, 6063-T1, 6063-T5, 6063-T591, 6063-T6
                         </p>
-                        <p class="supply"><b>We supply with three types of aluminum bar:</b> (Click to see possible existing product profiles)</p>
+                        <p class="supply"><b>Nous fournissons avec trois types de barre d'aluminium: </b> (Cliquez pour voir les profils de produit existants possibles)</p>
                         <div class="ajaxcontent">
                             <div class="col-md-4  col-sm-4">
-                                <p class="sharp">Bar Round Corner</p>
+                                <p class="sharp">Coin rond</p>
                                 <a href="ex/BarRound.html" data-remote="false" data-toggle="modal" data-target="#myModal_2">
                                     <img src="../img/650_500/BarRound.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-4  col-sm-4">
-                                <p class="sharp">Bar Sharp Corner</p>
+                                <p class="sharp">Angle vif</p>
                                 <a href="ex/BarSharpCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_2">
                                     <img src="../img/650_500/BarSharpCorner.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-4  col-sm-4">
-                                <p class="sharp">Bar Round (Rod)</p>
+                                <p class="sharp">Rond (Rod)</p>
                                 <a href="ex/Rod.html" data-remote="false" data-toggle="modal" data-target="#myModal_2">
                                     <img src="../img/650_500/Rod.jpg" alt="">
                                 </a>
@@ -154,8 +153,8 @@
                         </div>
                         <div class="clearfix btm">
                             <p>
-                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
-                            <p>If you need them please contact us for your order.</p>
+                            * Nous offrons à nos clients la conception de produits, le prototypage, la fabrication, l'usinage CNC et les finitions d'extrusion, ainsi que des solutions de chaîne d'approvisionnement personnalisées. Nous pouvons choisir des écrous et des boulons ou d'autres accessoires en aluminium avec le profil en aluminium. </p>
+                             <p> Si vous en avez besoin, veuillez nous contacter pour votre commande.</p>
                         </div>
                     </div>
                 </div>
@@ -165,15 +164,12 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Profile</h4>
+                                <h4 class="modal-title" id="myModalLabel">Profil</h4>
                             </div>
                             <div class="modal-body">
                             ...
                             </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
+                            
                         </div>
                     </div>
                 </div>
@@ -188,26 +184,26 @@
                         <!-- <img src="../img/1920x1500/beam01.jpg" alt=""> -->
                     </div>
                     <div class="col-lg-9 col-md-8 righttext">
-                        <h4>Beam Extrusion</h4>
+                        <h4>Extrusion de faisceau</h4>
                         <p>
-                        Aluminum Beam extrusion is used in furniture, windows&doors, decorations ,industry and construction.
+                        L'extrusion de faisceau d'aluminium est employée dans les meubles, les fenêtres et les portes, les décorations, l'industrie et la construction.
                         </p>
                         <p class="supply">
-                            Available Alloy
+                            Alliage disponible
                         </p>
                         <p>
                             6005, 6061
                         </p>
-                        <p class="supply"><b>We supply with two types of aluminum beam:</b> (Click to see possible existing product profiles)</p>
+                        <p class="supply"><b>Nous fournissons avec deux types de poutre en aluminium: </b> (Cliquez pour voir les profils de produits existants possibles)</p>
                         <div class="ajaxcontent">
                             <div class="col-md-6 col-sm-6">
-                                <p class="sharp">Beam Radius Inside</p>
+                                <p class="sharp">Rayon à l'intérieur</p>
                                 <a href="ex/BeamRadiusInside.html" data-remote="false" data-toggle="modal" data-target="#myModal_3">
                                     <img src="../img/650_500/BeamRadiusInside.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <p class="sharp">Beam Square Corner</p>
+                                <p class="sharp">Coin carré</p>
                                 <a href="ex/BeamSquareCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_3">
                                     <img src="../img/650_500/BeamSquareCorner.jpg" alt="">
                                 </a>
@@ -215,8 +211,8 @@
                         </div>
                         <div class="clearfix btm">
                             <p>
-                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
-                            <p>If you need them please contact us for your order.</p>
+                            * Nous offrons à nos clients la conception de produits, le prototypage, la fabrication, l'usinage CNC et les finitions d'extrusion, ainsi que des solutions de chaîne d'approvisionnement personnalisées. Nous pouvons choisir des écrous et des boulons ou d'autres accessoires en aluminium avec le profil en aluminium. </p>
+                             <p> Si vous en avez besoin, veuillez nous contacter pour votre commande.</p>
                         </div>
                     </div>
                 </div>
@@ -231,10 +227,7 @@
                             <div class="modal-body">
                             ...
                             </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
+                             
                         </div>
                     </div>
                 </div>
@@ -247,20 +240,20 @@
                         <img src="../img/1920x1500/channel01.jpg" alt="">
                      </div>
                     <div class="col-lg-9 col-md-8 righttext">
-                        <h4>Channel Extrusion</h4>
+                        <h4>Extrusion de canal</h4>
                         <p>
-                        Aluminum channel extrusion is used in TV frames, rim for bicycles and motorcycles, radiator, furniture, ladder, guide rail, leisure materials, shower room, solar module frame, motor shell, pipeline integration etc..
+                        L'extrusion de canal en aluminium est utilisée dans les cadres de TV, jante pour vélos et motos, radiateur, meubles, échelle, rail de guidage, matériaux de loisirs, salle de douche, cadre de module solaire, coquille moteur, intégration pipeline etc.
                         </p>
                         <p class="supply">
-                            Available Alloy
+                            Alliage disponible
                         </p>
                         <p>
                             6005-T5, 6060-T5, 6060-T66, 6061-T6, 6061-T6511, 6063-T4, 6063-T5, 6063-T52, 6063-T6
                         </p>
-                        <p class="supply"><b>We supply with two types of aluminum channel:</b> (Click to see possible existing product profiles)</p>
+                        <p class="supply"><b>Nous fournissons avec deux types de canal en aluminium:</b> (Cliquez pour voir les profils de produits existants possibles)</p>
                         <div class="ajaxcontent">
                             <div class="col-md-6 col-sm-6">
-                                <p class="sharp">Channel Association</p>
+                                <p class="sharp">Association de la chaîne</p>
                                 <a href="ex/ChannelAssociation.html" data-remote="false" data-toggle="modal" data-target="#myModal_4">
                                     <img src="../img/650_500/ChannelAssociation.jpg" alt="">
                                 </a>
@@ -268,16 +261,16 @@
                         </div>
                         <div class="ajaxcontent">
                             <div class="col-md-6 col-sm-6">
-                                <p class="sharp">Channel Square Corners</p>
+                                <p class="sharp">Coins carrés de la Manche</p>
                                 <a href="ex/ChannelSquareCorners.html" data-remote="false" data-toggle="modal" data-target="#myModal_4">
                                     <img src="../img/650_500/ChannelSquareCorners.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="clearfix btm">
-                            <p>
-                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
-                            <p>If you need them please contact us for your order.</p>
+                             <p>
+                            * Nous offrons à nos clients la conception de produits, le prototypage, la fabrication, l'usinage CNC et les finitions d'extrusion, ainsi que des solutions de chaîne d'approvisionnement personnalisées. Nous pouvons choisir des écrous et des boulons ou d'autres accessoires en aluminium avec le profil en aluminium. </p>
+                             <p> Si vous en avez besoin, veuillez nous contacter pour votre commande.</p>
                         </div>
                     </div>
                 </div>
@@ -292,10 +285,7 @@
                             <div class="modal-body">
                             ...
                             </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
+                             
                         </div>
                     </div>
                 </div>
@@ -310,20 +300,20 @@
                         <!-- <img src="../img/1920x1500/pipe01.jpg" alt=""> -->
                     </div>
                     <div class="col-lg-9 col-md-8 righttext">
-                        <h4>Pipe Extrusion</h4>
+                        <h4>Extrusion de tuyau</h4>
                         <p>
-                        Aluminum Beam extrusion is used in furniture, windows&doors, decorations ,industry and construction.
+                        L'extrusion de faisceau d'aluminium est employée dans les meubles, les fenêtres et les portes, les décorations, l'industrie et la construction.
                         </p>
                         <p class="supply">
-                            Available Alloy
+                            Alliage disponible
                         </p>
                         <p>
                             6061-T6, 6061-T6511, 6063-T4, 6063-T52
                         </p>
-                        <p class="supply"><b>We supply with one type of aluminum pipe:</b> (Click to see possible existing product profiles)</p>
+                        <p class="supply"><b>Nous fournissons avec un type de tuyau d'aluminium: </b> (Cliquez pour voir les profils de produits existants possibles)</p>
                         <div class="ajaxcontent">
                             <div class="col-md-6">
-                                <p class="sharp">Pipe</p>
+                                <p class="sharp">Tuyau</p>
                                 <a href="ex/Pipe.html" data-remote="false" data-toggle="modal" data-target="#myModal_5">
                                     <img src="../img/650_500/Pipe.jpg" alt="">
                                 </a>
@@ -331,8 +321,8 @@
                         </div>
                         <div class="clearfix btm">
                             <p>
-                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
-                            <p>If you need them please contact us for your order.</p>
+                            * Nous offrons à nos clients la conception de produits, le prototypage, la fabrication, l'usinage CNC et les finitions d'extrusion, ainsi que des solutions de chaîne d'approvisionnement personnalisées. Nous pouvons choisir des écrous et des boulons ou d'autres accessoires en aluminium avec le profil en aluminium. </p>
+                             <p> Si vous en avez besoin, veuillez nous contacter pour votre commande.</p>
                         </div>
                     </div>
                 </div>
@@ -347,10 +337,7 @@
                             <div class="modal-body">
                             ...
                             </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
+                           
                         </div>
                     </div>
                 </div>
@@ -364,32 +351,32 @@
                         <img src="../img/1920x1500/tube01.jpg" alt="">
                      </div>
                     <div class="col-lg-9 col-md-8 righttext">
-                        <h4>Tube Extrusion</h4>
+                        <h4>Extrusion de tube</h4>
                         <p>
-                        Aluminum Tube extrusion is used in construcion buildings (window, door, curtain wall, hand railing,etc.) and industrial parts.
+                        L'extrusion de tubes en aluminium est utilisée dans les bâtiments de construction (fenêtre, porte, mur rideau, main courante, etc.) et les pièces industrielles.
                         </p>
                         <p class="supply">
-                            Available Alloy
+                           Alliage disponible
                         </p>
                         <p>
                             5356-T5, 6060-T5, 6061-T6, 6061-T6511, 6063-T5, 6063-T52, 6063-T66s
                         </p>
-                        <p class="supply"><b>We supply with three types of aluminum beam:</b> (Click to see possible existing product profiles)</p>
+                        <p class="supply"><b>Nous fournissons avec trois types de poutre en aluminium:</b> (Cliquez pour voir les profils de produits existants possibles)</p>
                         <div class="ajaxcontent clearfix">
                             <div class="col-md-4 col-sm-4">
-                                <p class="sharp">Rectangular Tube (Round Corner)</p>
+                                <p class="sharp">Tube rectangulaire (coin rond)</p>
                                 <a href="ex/RectangularTubeRoundCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_6">
                                     <img src="../img/650_500/RectangularTubeRoundCorner.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-4 col-sm-4">
-                                <p class="sharp">Rectangular Tube (Sharp Corner)</p>
+                                <p class="sharp">Tube rectangulaire (coin pointu)</p>
                                 <a href="ex/RectangularTubeSharpCorner.html" data-remote="false" data-toggle="modal" data-target="#myModal_6">
                                     <img src="../img/650_500/RectangularTubeSharpCorner.jpg" alt="">
                                 </a>
                             </div>
                             <div class="col-md-4 col-sm-4">
-                                <p class="sharp">Round Tubing</p>
+                                <p class="sharp">Tubes ronds</p>
                                 <a href="ex/RoundTubing.html" data-remote="false" data-toggle="modal" data-target="#myModal_6">
                                     <img src="../img/650_500/RoundTubing.jpg" alt="">
                                 </a>
@@ -397,8 +384,8 @@
                         </div>
                         <div class="clearfix btm">
                             <p>
-                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
-                            <p>If you need them please contact us for your order.</p>
+                            * Nous offrons à nos clients la conception de produits, le prototypage, la fabrication, l'usinage CNC et les finitions d'extrusion, ainsi que des solutions de chaîne d'approvisionnement personnalisées. Nous pouvons choisir des écrous et des boulons ou d'autres accessoires en aluminium avec le profil en aluminium. </p>
+                             <p> Si vous en avez besoin, veuillez nous contacter pour votre commande.</p>
                         </div>
                     </div>
                 </div>
@@ -413,10 +400,7 @@
                             <div class="modal-body">
                             ...
                             </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
+                            
                         </div>
                     </div>
                 </div>

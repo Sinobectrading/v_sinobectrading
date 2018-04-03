@@ -19,7 +19,7 @@
 						<a href="about.php" class="hvr-shutter-out-vertical">Lire la suite</a>
 					</div>
 					<div class="w3l-button">
-						<a href="products.php" class="hvr-shutter-out-vertical scroll ">Produits</a>
+						<a href="products.php" class="hvr-shutter-out-vertical scroll" >Produits</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -384,5 +384,13 @@
 
 <!-- footer -->
 <?php include_once 'footer.php'; ?>	
+<!-- <script>
+$('#opened').bind('click', function(e){
+	e.preventDefault();
+	$('.dropdown-menu').dropdown('toggle');
+	console.log("open");
+ 	e.stopPropagation();
+}) 
+</script> -->
 </body>
 </html>

@@ -1,0 +1,124 @@
+<table class="table table-hover table-responsive" cellpadding="0" cellspacing="0" id="scoil">
+    <thead>
+      <tr class="suj">
+          <td>Height (Ga)</td>
+          <td>Width</td>
+          <td>Alloy Num</td>
+          <td>Surface</td>
+          <td>Description</td>
+      </tr> 
+    </thead>
+    <tbody>
+    <tr>
+      <td>16.00</td>
+      <td>60.00</td>
+      <td>304</td>
+      <td>#4</td>
+      <td>SS304 #4 Novacel LPVC 4224 16GAx60"xCOIL</td>
+    </tr>
+      <tr>
+        <td>16.00</td>
+        <td>48.00</td>
+        
+        <td>304</td>
+        <td>#4</td>
+        <td>SS304 #4 Novacel LPVC 4224 16GAx48"xCOIL</td>
+      </tr>
+      <tr>
+        <td>16.00</td>
+        <td>60.00</td>
+        
+        <td>304</td>
+        <td>2B</td>
+        <td>SS304 2B 16GAx60"xCOIL</td>
+      </tr>
+      <tr>
+        <td>11.00</td>
+        <td>60.00</td>
+        
+        <td>304</td>
+        <td>2B</td>
+        <td>SS304 2B 11GAx60"xCOIL</td>
+      </tr>
+      <tr>
+        <td>12.00</td>
+        <td>60.00</td>
+        
+        <td>304</td>
+        <td>2B</td>
+        <td>SS304 2B 12GAx60"xCOIL</td>
+      </tr>
+      <tr>
+        <td>20.00</td>
+        <td>48.00</td>
+        
+        <td>430</td>
+        <td>BA</td>
+        <td>SS430 BA Novacel LPVC 4224 20GAx48"xCOIL</td>
+      </tr>
+      <tr>
+        <td>1.00mm</td>
+        <td>1500mm</td>
+        
+        <td>304</td>
+        <td>2B</td>
+        <td>SS304 2B PRIME DDQ DEPTHS: 22-25 CM MAX  1.0mmx1500mmxCOIL</td>
+      </tr>
+      <tr>
+        <td>1.20mm</td>
+        <td>1500mm</td>
+        
+        <td>304</td>
+        <td>2B</td>
+        <td>SS304 2B PRIME DDQ DEPTHS: 22-25 CM MAX  1.2mmx1500mmxCOIL</td>
+      </tr>
+      <tr>
+        <td>22.00</td>
+        <td>5.00</td>
+        
+        <td>430</td>
+        <td>BA</td>
+        <td>SS430 BA Strips 22GAx5"xCOIL</td>
+      </tr>
+      <tr>
+        <td>22.00</td>
+        <td>48.00</td>
+        
+        <td>304</td>
+        <td>#4</td>
+        <td>SS304 #4, Novacel LPVC 4224  22GAx48"xCOIL</td>
+      </tr>
+      <tr>
+        <td>0.018"</td>
+        <td>3.062</td>
+        
+        <td>304</td>
+        <td>2B</td>
+        <td>SS304 2B .018"+/-.0015"x3.062"xCOIL</td>
+      </tr>
+      <tr>
+        <td>0.018"</td>
+        <td>2.55</td>
+        
+        <td>304</td>
+        <td>2B</td>
+        <td>SS304 2B .018"+/-.0015"x2.550"xCOIL</td>
+      </tr>
+  </tbody>
+</table>
+<script>
+$(document).ready(function(){
+     $('#scoil').DataTable({
+      searching: true,
+      ordering:  true,
+      responsive: true,
+      columnDefs: [
+            {
+                targets: [ 0, 1 ],
+                className: 'mdl-data-table__cell--non-numeric'
+            }
+        ],
+      "lengthMenu": [ [5, 10, 25, -1], [5, 10, 25, "All"] ]
+    });
+});
+</script>

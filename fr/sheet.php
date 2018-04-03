@@ -19,30 +19,29 @@
 <?php include_once 'nav.php'; ?>
 <div class="allcontain">
     <div id="sheet" class="col-md-12 abc">
-        <div class="visible-xs"><h5>Aluminum Flat & Rolled</h5></div>
          <div class="tab_container">
             <input id="tab7" type="radio" name="tabs" checked>
             <label for="tab7" class="thum">
                 <img src="../img/png/sheet_50.png" alt="">
-                <span class="itemname">&nbsp;&nbsp;Embossed Flat</span>
+                <span class="itemname">&nbsp;&nbsp;Plat en relief</span>
             </label>
 
             <input id="tab8" type="radio" name="tabs">
             <label for="tab8" class="thum">
                 <img src="../img/png/flat_50.png" alt="">
-                <span class="itemname">&nbsp;&nbsp;Plates and Sheets</span>
+                <span class="itemname">&nbsp;&nbsp;Plaques et feuilles</span>
             </label>
 
             <input id="tab9" type="radio" name="tabs">
             <label for="tab9" class="thum">
                 <img src="../img/png/coil_50.png" alt="">
-                <span class="itemname">&nbsp;&nbsp;Coils</span>
+                <span class="itemname">&nbsp;&nbsp;Bobines</span>
             </label>
 
             <input id="tab10" type="radio" name="tabs">
             <label for="tab10" class="thum">
-                <img src="../img/png/painted_150.png" alt="">
-                <span class="itemname">&nbsp;&nbsp;Painted Coils</span>
+                <img src="../img/png/paintcoil.png" alt="">
+                <span class="itemname">&nbsp;&nbsp;Bobines peintes</span>
             </label>
 
              
@@ -54,12 +53,12 @@
                         <img src="../img/1920x1500/emb02.jpg" alt="">
                     </div>
                     <div class="col-lg-9 col-sm-9 col-xs-12 righttext">
-                        <h4>Embossed Plates & Sheets</h4>
+                        <h4>Plaques et feuilles gaufrées</h4>
                         <p>
-                            Embossed aluminium sheet are widely used in refrigerator, solar heat reflectors, decorative aluminum products, lamps, bags, disinfection box, air conditioning, ventilation ducts, indoor & outdoor decoration, machinery and equipment housing and other industries. Embossed finish can enhance the thickness and strength of aluminum.
+                            Feuille d'aluminium gaufré sont largement utilisés dans le réfrigérateur, réflecteurs de chaleur solaire, produits décoratifs en aluminium, lampes, sacs, boîte de désinfection, climatisation, conduits de ventilation, décoration intérieure et extérieure, logement de machines et d'équipement et d'autres industries. La finition gaufrée peut améliorer l'épaisseur et la force de l'aluminium.
                         </p>
        
-                        <p class="bold">Available Alloy</p>
+                        <p class="bold">Alliage disponible</p>
                         <p>
                             <li>AL1xxx (1050, 1060, 1070, 1100)</li>  
                             <li>AL3xxx (3003, 3004, 3005, 3105)</li> 
@@ -67,20 +66,20 @@
                             <li>AL6xxx (6061)</li>
                         </p>
 
-                        <p class="bold">Available Temper</p>
+                        <p class="bold">Temper disponible</p>
                         <p>H12, H14, H24, H114, H321, T6</p>
                          
-                        <p class="bold">Pattern Type</p>
-                        <p>5-bar, 3-bar, Diamond, Rice Grain, Bean</p>
+                        <p class="bold">Type de motif</p>
+                        <p>5-barres, 3-barres, diamant, grain de riz, haricot</p>
 
-                        <p class="bold">Thickness</p>
-                        <p>0.8-10mm or as required</p>
+                        <p class="bold">Épaisseur</p>
+                        <p>0.8-10mm ou au besoin</p>
 
-                        <p class="bold">Width</p>
-                        <p>100mm-1800mm, or as required</p>
+                        <p class="bold">Largeur</p>
+                        <p>100mm-1800mm, ou au besoin</p>
 
-                        <p class="bold">Surface Treatment</p>
-                        <p>Anodizing, Wiredrawing, Mill finish, Spray coating, Punching, Welding or as required</p>
+                        <p class="bold">Traitement de surface</p>
+                        <p>Anodisation, tréfilage, finition de moulin, revêtement de jet, poinçon, soudure ou selon les besoins</p>
                         
                         <!-- <div class="clearfix btm">
                             <p>
@@ -99,22 +98,22 @@
                         <!-- <img src="../img/1920x1500/angle02.jpg" alt=""> -->
                     </div>
                     <div class="col-lg-9 col-sm-9 col-xs-12 righttext">
-                        <h4>Plates & Sheets</h4>
-                        <p class="bold">Plates applications</p>
+                        <h4>Plaques et feuilles</h4>
+                        <p class="bold">Applications de plaques</p>
                         <p>
-                            Plate is used in heavy-duty applications such as those found in the aerospace, military and transportation product manufacturing. Aluminum plate, machined to shape, forms the skins of jets and spacecraft fuel tanks. It is used for storage tanks in many industries, in part because some aluminum alloys become tougher at supercold temperatures. This property is especially useful in holding cryogenic (very-low-temperature) materials. Plate is also used to manufacture structural sections for railcars and ships, as well as armor for military vehicles.
+                            La plaque est utilisée dans les applications lourdes telles que celles que l'on trouve dans la fabrication de produits aérospatiaux, militaires et de transport. La plaque d'aluminium, usinée pour former, forme les peaux des jets et des réservoirs de carburant des vaisseaux spatiaux. Il est utilisé pour les réservoirs de stockage dans de nombreuses industries, en partie parce que certains alliages d'aluminium deviennent plus résistants à des températures super froides. Cette propriété est particulièrement utile pour la conservation de matériaux cryogéniques (à très basse température). La plaque est également utilisée pour fabriquer des sections structurales pour les wagons et les navires, ainsi que des armures pour les véhicules militaires.
                         </p>
                         <p class="bold">
-                            Sheets applications
+                            Applications de feuilles
                         </p>
                         <p>
-                            Sheet, the most widely used form of aluminum, is found in all of the aluminum industry’s major markets. In packaging, sheet is used to manufacture cans and packages. In transportation, aluminum sheet is used to manufacture panels for automobile bodies and tractor trailers. Sheet is used in home appliances and cookware. In building and construction, it is formed into products including siding, gutters, roofing, awnings and carports. Sheet aluminum can be color-anodized to black, gold, red, blue and hundreds of other colors. It can be etched to a matte finish, polished to a sparkling brightness or textured to resemble wood and painted.
+                            La feuille, la forme d'aluminium la plus utilisée, se trouve sur tous les principaux marchés de l'industrie de l'aluminium. Dans l'emballage, la feuille est utilisée pour fabriquer des boîtes et des emballages. Dans le secteur du transport, la tôle d'aluminium est utilisée pour fabriquer des panneaux pour carrosseries d'automobiles et semi-remorques. La feuille est utilisée dans les appareils électroménagers et les batterieas de cuisine. Dans le bâtiment et la construction, il est formé dans les produits comprenant le bardage, les gouttières, la toiture, les auvents et les carports. La feuille d'aluminium peut être colorée anodisée en noir, or, rouge, bleu et des centaines d'autres couleurs. Il peut être gravé sur une finition mate, poli à une brillance étincelante ou texturé pour ressembler à du bois et peint.
                         </p>  
                         <p class="bold">Available Alloy</p>
                         <p>AL 1xxx, AL 3xxx, AL 5xxx, AL 6xxx and AL 7xxx</p>    
                         <p>
                             <a class="btn btn-default" href="ex/plates.html" data-remote="false" data-toggle="modal" data-target="#myModal_9">
-                            More details
+                            Plus de détails
                             </a>
                         </p>                   
                     </div>
@@ -125,7 +124,7 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="myModalLabel">Profile (unit: inch)</h4>
+                                <h4 class="modal-title" id="myModalLabel">Profil (unité: pouce)</h4>
                             </div>
                             <div class="modal-body">
                             ...
@@ -144,19 +143,19 @@
                         <!-- <img src="../img/1920x1500/angle02.jpg" alt=""> -->
                     </div>
                     <div class="col-lg-9 col-sm-9 col-xs-12 righttext">
-                        <h4>Aluminum Coil</h4>
+                        <h4>Bobine d'aluminium</h4>
                         <p>
-                        Aluminum coils are available in a wide variety of alloys. Aluminum is roughly 1/3 the weight of mild steel , it is non corrosive, has high thermal conductivity and can be formed easily.
+                        Les bobines d'aluminium sont disponibles dans une grande variété d'alliages. L'aluminium est environ 1/3 du poids de l'acier doux, il est non corrosif, a une conductivité thermique élevée et peut être facilement formé.
                         </p>
                         <p class="supply">
-                            Available Alloy
+                            Alliage disponible
                         </p>
                         <p>
                            1050,1060,3003,3105,5005,5052, 8011
                         </p>
                         <p>
                             <a class="btn btn-default" href="ex/coil.html" data-remote="false" data-toggle="modal" data-target="#myModal_10" >
-                            More details
+                            Plus de détails
                             </a>
                         </p>    
                          
@@ -173,10 +172,7 @@
                             <div class="modal-body">
                             ...
                             </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
+                             
                         </div>
                     </div>
                 </div>
@@ -189,19 +185,19 @@
                         <!-- <img src="../img/1920x1500/angle02.jpg" alt=""> -->
                     </div>
                     <div class="col-lg-9 col-sm-9 col-xs-12 righttext">
-                        <h4>Painted Coil</h4>
+                        <h4>Bobine peinte</h4>
                         <p>
-                        Color coated aluminum coil is widely used in the roofing and cladding system, ceiling system, curtain wall plate, shutter, gutter, composite panel, can, home appliances board and embossed aluminum coil.
+                        La bobine en aluminium enduite par couleur est très utilisée dans le système de toiture et de revêtement, le système de plafond, la plaque de mur rideau, l'obturateur, la gouttière, le panneau composite, la canette, le panneau d'appareils ménagers et la bobine en aluminium.
                         </p>
                         <p class="supply">
-                            Available Alloy
+                            Alliage disponible
                         </p>
                         <p>
                            1050,1060,3003,3105,5005,5052, 8011
                         </p>
                         <p>
                             <a class="btn btn-default" href="ex/pcoil.html" data-remote="false" data-toggle="modal" data-target="#myModal_11" >
-                            More details
+                            Plus de détails
                             </a>
                         </p>    
                          
@@ -218,15 +214,11 @@
                             <div class="modal-body">
                             ...
                             </div>
-                            <!-- <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div> -->
+                            
                         </div>
                     </div>
                 </div>
             </section>
-        </div>
     </div>
 </div>
  

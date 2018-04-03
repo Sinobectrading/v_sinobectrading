@@ -1,108 +1,210 @@
 <!DOCTYPE html>
-<html lang="fr">
-
-<head>
+<html lang="en">
 <?php include_once '../header.php'; ?>
-</head>
-
+<link rel="stylesheet" href="/sinobectrading/css/temp.css">
+<style>
+ html { overflow: scroll; } 
+ .w3layouts_footer_grid {
+    display: none;
+ }
+ .f-bg-w3l {
+    padding-bottom: 1em;
+ }
+ p.copyright {
+    margin-top: 1em;
+ }
+</style>
+ 
 <body>
 <?php include_once 'nav.php'; ?>
-<div class="services-breadcrumb" id="steel">
-	<div class="agile_inner_breadcrumb">
+<div class="allcontain">
+ 	<div id="steel" class="col-md-12 abc">
+        <div class="visible-xs"><h5>Stainless Steel</h5></div>
+		<div class="tab_container">
+            <input id="tab11" type="radio" name="tabs" checked>
+            <label for="tab11" class="thum">
+                <img src="../img/png/st_plate.png" alt="">
+                <span class="itemname">&nbsp;&nbsp;Sheets $ Plates</span>
+            </label>
 
-		<ul class="w3_short">
-			<li><a href="index.php">Home</a><span>|</span></li>
-			<li><a href="products.php">Products</a></li>
-		</ul>
-	</div>
-</div>
+            <input id="tab12" type="radio" name="tabs">
+            <label for="tab12" class="thum">
+                <img src="../img/png/coil.png" alt="">
+                <span class="itemname">&nbsp;&nbsp;Coils</span>
+            </label>
+
+            <input id="tab13" type="radio" name="tabs">
+            <label for="tab13" class="thum">
+                <img src="../img/png/foil.png" alt="">
+                <span class="itemname">&nbsp;&nbsp;Foils</span>
+            </label>
+
+            <section id="stsheet" class="tab-content">
+                <div class="flex clearfix">
+                    <div class="col-lg-4 col-sm-4 col-xs-12 leftimg">
+                        <img src="../img/1920x1500/1920_stplate.jpg" alt="">
+                     </div>
+                    <div class="col-lg-8 col-sm-8 col-xs-12 righttext">
+                        <h4>Stainless Steel Sheets & Plates</h4>
+                        <p class="bold">Application</p>
+                        <p>
+                            construction  field,ships  building  industry,petroleum&chemical  industries, war  and  electricity  industries,food  processing  and  medical  industry,boiler heat  exchanger, machinery  and  hardware  fields, etc.Stainless steel plate can be made according to the customers requirements. 
+                        </p>
+       
+                        <p class="bold">Available Alloy</p>
+                        <p>
+                            <li>304</li>  
+                        </p>
+                        
+
+                        <p class="bold">Surface</p>
+                        <p>#1, 2B, #4 </p>
+
+                        <p>
+                        	<a class="btn btn-default" href="ex/ssheet.html" data-remote="false" data-toggle="modal" data-target="#myModal_12">
+                            More details
+                            </a>
+                        </p>
+                        
+                        <!-- <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal_12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Profile (Unit: inch)</h4>
+                            </div>
+                            <div class="modal-body">
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
-<!-- /services -->
-<div class="portfolio-agileinfo" id="portfolio">
-	<div class="container">
-		<div class="wthree_head_section">
-			<h3 class="w3l_header w3_agileits_header">Stainless <span> steel </span></h3>
+
+
+
+            <section id="stcoil" class="tab-content">
+                <div class="flex clearfix">
+                    <div class="col-lg-4 col-sm-4 col-xs-12 leftimg">
+                        <img src="../img/1920x1500/stcoil-1.jpg" alt="">
+                     </div>
+                    <div class="col-lg-8 col-sm-8 col-xs-12 righttext">
+                        <h4>Stainless Steel Coils</h4>
+                        <p class="bold">Application</p>
+                        <p>
+                            Kitchenware, Tanks, Food Processing, cutlery, construction, household hardware, surgical instruments, major appliances, industrial equipment and as an automotive and aerospace structural alloy.
+                        </p>
+       
+                        <p class="bold">Available Alloy</p>
+                        <p>
+                            <li>304</li>  
+                        </p>
+ 
+
+                        <p class="bold">Surface</p>
+                        <p>BA, 2B, #4 </p>
+
+                        <p>
+                        	<a class="btn btn-default" href="ex/scoil.html" data-remote="false" data-toggle="modal" data-target="#myModal_13">
+                            More details
+                            </a>
+                        </p>
+                        
+                        <!-- <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
+                        </div> -->
+                    </div>
+                </div>
+				<div class="modal fade" id="myModal_13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Profile (Unit: inch)</h4>
+                            </div>
+                            <div class="modal-body">
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="stfoil" class="tab-content">
+                <div class="flex clearfix">
+                    <div class="col-lg-4 col-sm-4 col-xs-12 leftimg">
+                        <img src="../img/1920x1500/1920_foil.jpg" alt="">
+                     </div>
+                    <div class="col-lg-8 col-sm-8 col-xs-12 righttext">
+                        <h4>Stainless Steel Foils</h4>
+                        <p>
+                            Stainless steel foil are the most common and economical stainless alloys on the market. They are non-heat treatable alloys, which makes them perfect for tool wrap applications when heat treating parts. It is extremely resistant to corrosion, and heat oxidation, for applications up to approximately 1500 degrees Fahrenheit. They are non-magnetic in the annealed condition. At times in the foil thicknesses, the individual production lots can be certified to 201, 304 and 304H, 316L, 430 standards.
+                        </p>
+       
+
+						<p class="bold">Application</p>
+                        <p>
+                        	Precision electronic, Chemical machinery manufacturing, Optical equipment, Energy equipment, High-precision container manufacturing, Food processing machinery, Instrumentation, Transportation equipment manufacturing industry
+                        </p>
+
+                        <p class="bold">Available Alloy</p>
+                        <p>
+                            <li>304</li>  
+                        </p>
+
+                        <p class="bold">Surface</p>
+                        <p>Fiber laser, #4, 2B, 2D</p>
+
+                        
+
+                        <p>
+                        	<a class="btn btn-default" href="ex/sfoil.html" data-remote="false" data-toggle="modal" data-target="#myModal_14">
+                            More details
+                            </a>
+                        </p>
+                        
+                        <!-- <div class="clearfix btm">
+                            <p>
+                            * We offer our customers product design, prototyping, fabrication, CNC machining, and extrusion finishes, as well as custom supply chain solutions. We can choose nuts and bolts or other aluminum accessories together with aluminum profile.</p>
+                            <p>If you need them please contact us for your order.</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal_14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Profile (Unit: inch)</h4>
+                            </div>
+                            <div class="modal-body">
+                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 		</div>
-	</div>
-	<div class="agile_wthree_inner_grids">
-		<div class="agile_port_w3ls_info">
-			<div class="portfolio-grids_main">
-				<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-					<a href="../images/steel/1920_01.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-							<img src="../images/steel/847_475_01.jpg" class="img-responsive" alt="w3ls" />
-							<div class="p-mask">
-								<h4><span>Stainless steel sheet</span></h4>
-								<!-- <p>Neque porro quisquam est.</p> -->
-							</div>
-
-						</a>
-				</div>
-				<div class="col-md-6 portfolio-grid_left">
-					<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-						<a href="../images/steel/1920_02.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-								<img src="../images/steel/424_475_01.jpg" class="img-responsive" alt="w3ls" />
-								<div class="p-mask">
-									<h4><span>Stainless steel coil</span></h4>
-								<!-- <p>Neque porro quisquam est.</p> -->
-								</div>
-
-							</a>
-					</div>
-					<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-						<a href="../images/steel/1920_03.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-								<img src="../images/steel/424_475_02.jpg" class="img-responsive" alt="w3ls" />
-								<div class="p-mask">
-									<h4><span>Stainless steel plate</span></h4>
-								<!-- <p>Neque porro quisquam est.</p> -->
-								</div>
-							</a>
-					</div>
-				</div>
-
-				<div class="clearfix"> </div>
-			</div>
-			<div class="portfolio-grids_main">
-
-				<div class="col-md-6 portfolio-grid_left">
-					<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-						<a href="../images/steel/1920_04.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-								<img src="../images/steel/424_475_03.jpg" class="img-responsive" alt="w3ls" />
-								<div class="p-mask">
-									<h4><span>Stainless steel tube</span></h4>
-								<!-- <p>Neque porro quisquam est.</p> -->
-								</div>
-							</a>
-					</div>
-					<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-						<a href="../images/steel/1920_05.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-								<img src="../images/steel/424_475_04.jpg" class="img-responsive" alt="w3ls" />
-								<div class="p-mask">
-									<h4><span>Stainless steel coil</span></h4>
-								<!-- <p>Neque porro quisquam est.</p> -->
-								</div>
-							</a>
-					</div>
-				</div>
-				<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-					<a href="../images/steel/1920_06.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-							<img src="../images/steel/847_475_02.jpg" class="img-responsive" alt="w3ls" />
-							<div class="p-mask">
-									<h4><span>Stainless steel pipe</span></h4>
-								<!-- <p>Neque porro quisquam est.</p> -->
-								</div>
-						</a>
-				</div>
-
-				<div class="clearfix"> </div>
-			</div>
-
-		</div>
-	</div>
+     </div>
 </div>
-<!--// Gallery -->
-
 <!-- footer -->
 <?php include_once 'footer.php'; ?>	
+<script>
+$(".modal").on("show.bs.modal", function(e) {
+    var link = $(e.relatedTarget);
+    $(this).find(".modal-body").load(link.attr("href"));
+});
+</script>
 </body>
 </html>

@@ -25,7 +25,8 @@ body, html, #home {
   margin-left: -15px;
   border-top: 0.5px solid #07a3ed
 }
-#sheet .righttext {
+#sheet .righttext,
+#steel .righttext {
   padding-left: 5em;
   padding-right: 5em
 }
@@ -34,7 +35,12 @@ body, html, #home {
   min-height: 83.2vh;
   height: auto
 }
-#sheet .flex {
+#sheet .flex,
+#steel .flex {
+  display: flex;
+  height: 80vh
+}
+#steel .flex {
   display: flex;
   height: 80vh
 }
@@ -44,6 +50,11 @@ body, html, #home {
   text-align: center;
 }
 #sheet .flex .leftimg {
+  background: #f7f7f7  ;
+  padding-top: 5em;
+  text-align: center;
+}
+#steel .flex .leftimg {
   background: #f7f7f7  ;
   padding-top: 5em;
   text-align: center;
@@ -70,20 +81,23 @@ body, html, #home {
 }
 /*Fun begins*/
 #std .tab_container,
-#sheet .tab_container {
+#sheet .tab_container,
+#steel .tab_container {
   width: 100%;
   margin: 0 auto;
   padding-top: 10px;
   position: relative;
 }
 #std input, #std section,
-#sheet input, #sheet section {
+#sheet input, #sheet section,
+#steel input, #steel section {
   clear: both;
   padding-top: 10px;
   display: none;
 }
 #std label,
-#sheet label {
+#sheet label,
+#steel label {
   font-weight: 500;
   font-size: 14px;
   display: block;
@@ -100,10 +114,15 @@ body, html, #home {
 #sheet label {
   width: 25%
 }
+#steel label {
+  width: 33.33333333%
+}
 #std .dataTables_length label,
 #std .dataTables_filter label,
 #sheet .dataTables_length label,
-#sheet .dataTables_filter label {
+#sheet .dataTables_filter label,
+#steel .dataTables_length label,
+#steel .dataTables_filter label {
   font-weight: lighter;
   font-size: 12px;
   display: block;
@@ -118,10 +137,12 @@ body, html, #home {
   margin-bottom: 0px;
 }
 .dataTables_wrapper .dataTables_paginate .fg-button.ui-state-disabled {
-  border: 1px solid #337ab7
+  border: 1px solid #337ab7;
+  opacity: 0.9
 }
 #std .dataTables_filter input,
-#sheet .dataTables_filter input  {
+#sheet .dataTables_filter input,
+#steel .dataTables_filter input {
   display: inline-block;
   border-width: 0.5px;
     border-style: none;
@@ -134,12 +155,27 @@ body, html, #home {
   font-size: 2em
 }
 #std .modal-header,
-#sheet .modal-header.
+#sheet .modal-header,
+#steel .modal-header,
 #portfolio .modal-header {
     min-height: 10px;
     padding-right: 2em;
     border-bottom: 0px solid #e5e5e5;
     background: #07a3ed
+}
+#portfolio .modal-header h4 {
+  font-size: 1em
+}
+#portfolio .modal-content .dataTables_filter label, 
+#portfolio .modal-content .dataTables_length label,
+#portfolio .modal-content .dataTables_info {
+  font-size: 12px;
+  font-weight: lighter;
+ }
+.modal-content .dataTables_wrapper .dataTables_paginate .fg-button.ui-state-disabled {
+  background: #07a3ed;
+  color: #fff;
+  opacity: 0.75;
 }
 .tab_container .thum img {
   width: 20%
@@ -153,7 +189,10 @@ body, html, #home {
 #tab7:checked ~ #Embossed,
 #tab8:checked ~ #Plate,
 #tab9:checked ~ #Coil,
-#tab10:checked ~ #pCoil {
+#tab10:checked ~ #pCoil,
+#tab11:checked ~ #stsheet,
+#tab12:checked ~ #stcoil,
+#tab13:checked ~ #stfoil {
   display: block;
   padding: 0;
   background: #fff;
@@ -178,7 +217,7 @@ body, html, #home {
 .tab_container .tab-content p {
   margin: 1em 0;
 }
-.tab_container .tab-content .modal-header h4 {
+.tab_container .tab-content .modal-header h4, #portfolio .modal-header h4  {
   color: #fff
 }
 .tab_container .tab-content h4  {
@@ -278,11 +317,12 @@ label .fa {
     width: 12em;
     margin-bottom: 3em
   }
-  #sheet {
+  #sheet, #steel {
     padding-left: 0px;
     padding-right: 0px;
   }
-   #sheet .tab-content img {
+  #sheet .tab-content img,
+  #steel .tab-content img {
     width: 10em;
    }
    #home .yamm-content .caption h4 {
@@ -305,7 +345,8 @@ label .fa {
   div.modal-dialog {
     width: 70%
   }
-  #sheet .tab_container label span {
+  #sheet .tab_container label span,
+  #steel .tab_container label span {
     font-size: 12px
   }
 } 
@@ -323,7 +364,8 @@ label .fa {
 
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  #sheet .tab-content img {
+  #sheet .tab-content img,
+  #steel .tab-content img {
     padding: 0em
   }
 }
@@ -339,7 +381,7 @@ label .fa {
     margin-left: -15px;
     border-top: 0.5px solid #07a3ed
   }
-  #std .tab_container, #sheet .tab_container {
+  #std .tab_container, #sheet .tab_container, #steel .tab_container {
     padding-top: 0px
   }
   label span {
@@ -355,7 +397,8 @@ label .fa {
     width: 98%;
   }
   #sheet .flex,
-  #std .flex {
+  #std .flex,
+  #steel .flex {
     display: block
   }
 /*  #sheet .flex > div,
@@ -369,7 +412,7 @@ label .fa {
   .righttext   {
     padding: 2em;
   }
-  #std .flex .leftimg, #sheet .flex .leftimg {
+  #std .flex .leftimg, #sheet .flex .leftimg, #steel .flex .leftimg {
     padding-top: 0;
   }
   div.modal-dialog {
@@ -408,19 +451,20 @@ label .fa {
     width: 12em;
   /*  margin-bottom: 3em*/
   }
-  #std label, #sheet label {
+  #std label, #sheet label, #steel label {
     padding: 1em 0.5em
   }
   #std .tab_container .thum img {
     width: 100%
   }
-  #sheet .tab_container .thum img {
+  #sheet .tab_container .thum img,
+  #steel .tab_container .thum img {
     width: 100%
   }
   .tab-content img {
     width: 12em;
   }
-  #sheet .flex,
+  #sheet .flex, #steel .flex,
   #std .flex {
     display: block;
     height: auto;
@@ -428,16 +472,16 @@ label .fa {
    #std .flex .leftimg {
     padding-top: 0;
   }
-  #sheet .flex .leftimg {
+  #sheet .flex .leftimg, #steel .flex .leftimg {
     padding-top: 1.5em
   }
-  #sheet .righttext {
+  #sheet .righttext, #steel .righttext {
     padding: 2em;
   }
   .tab_container label span {
     display: none;
   }
-  #std .tab_container, #sheet .tab_container {
+  #std .tab_container, #sheet .tab_container, #steel .tab_container {
     padding-top: 0px
   }
   div.modal-dialog {
@@ -455,10 +499,11 @@ label .fa {
   .tab-content .modal-body .dataTables_wrapper {
     padding: 1.5em 1em;
   }
-   #sheet {
+   #sheet, #steel {
     padding: 0
    }
-   #sheet .tab_container .tab-content .flex .righttext > h4 {
+   #sheet .tab_container .tab-content .flex .righttext > h4,
+   #steel .tab_container .tab-content .flex .righttext > h4 {
       padding: 1em 0;
    }
    .f-bg-w3l {
@@ -470,7 +515,7 @@ label .fa {
   .dataTables_wrapper .dataTables_filter {
     margin-top: 0px;
    }
-   #std  .dataTables_wrapper .dataTables_filter label {
+   #std .dataTables_wrapper .dataTables_filter label {
     float: right;
    }
 }
@@ -483,10 +528,9 @@ label .fa {
   #std .tab_container .thum img {
     width: 100%
   }
-  #sheet label {
-
-  }
-  #sheet .tab_container .thum img {
+ 
+  #sheet .tab_container .thum img,
+  #steel .tab_container .thum img {
     width: 80%
   }
 }

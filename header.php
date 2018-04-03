@@ -34,8 +34,10 @@ session_start();
 <link rel="stylesheet" href="/sinobectrading/css/p.css">
 <link rel="stylesheet" href="/sinobectrading/css/yamm.css">
 <link rel="stylesheet" href="/sinobectrading/css/bootstrap.responsive.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css">
+<link rel="stylesheet" href="/sinobectrading/css/jquery.dataTables.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css"> -->
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.jqueryui.min.css">
 
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css">
-<link rel="stylesheet" href="/sinobectrading/css/responsive.dataTables.min.css">
-<link rel="stylesheet" href="/sinobectrading/css/responsive.bootstrap.min.css">
+

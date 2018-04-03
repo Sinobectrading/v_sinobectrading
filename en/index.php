@@ -25,7 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<a href="about.php" class="hvr-shutter-out-vertical">Read More</a>
 					</div>
 					<div class="w3l-button">
-						<a href="products.php" class="hvr-shutter-out-vertical scroll ">Products</a>
+						<a href="products.php" class="hvr-shutter-out-vertical scroll"  >Products</a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -395,5 +395,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <!-- footer -->
 <?php include_once 'footer.php'; ?>	
+<!-- <script>
+$('#opened').on('click', function(e){
+	 e.preventDefault();e.stopPropagation();
+	$('.dropdown-menu').slideToggle();
+ 	
+ 	$('#opened').off();
+}); 
+</script> -->
 </body>
 </html>

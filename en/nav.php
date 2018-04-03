@@ -23,26 +23,7 @@
 						<?php if (trim($_SERVER['PHP_SELF']) == "/sinobectrading/en/about.php") {
                               echo 'class="active"';} ?>
 						><a href="about.php" class="effect-3">About</a></li>
-						<!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Services <b class="caret"></b></a>
-							<ul class="dropdown-menu agile_short_dropdown">
-								<li><a href="services.php">It Solutions</a></li>
-								<li><a href="services1.php">Event Management</a></li>
-							</ul>
-						</li> -->
-						 
-						<!-- <li class="dropdown">
-							<a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Short Codes <b class="caret"></b></a>
-							<ul class="dropdown-menu agile_short_dropdown">
-								<li><a href="icons.php">Web Icons</a></li>
-								<li><a href="typography.php">Typography</a></li>
-							</ul>
-						</li> -->
-						 
-
-
-						
-						
+ 
 						<li class="dropdown yamm-fullwidth">
 			                 <a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown"> Products <b class="caret"></b> </a>
 			                  <ul class="dropdown-menu ">
@@ -53,53 +34,58 @@
 
 			                          	<li class="span3">
 			                          		<div class="thumbnail clearfix">
-			                          			<img alt="260x130" src="../img/260_130/raw.jpg">
-			                          			<div class="caption">
-			                          				<h4>Aluminum RAW Material</h4>
-			                          				<div class="w3l-button">
-			                          					<a class="hvr-shutter-out-vertical" href="raw.php">Ingot & Billet</a>
-			                          				</div>
-			                          			</div>
+			                          			<a class="hvr-shutter-out-vertical" href="raw.php">
+				                          			<img alt="260x130" src="../img/260_130/raw.jpg" class="hidden-xs">
+				                          			<div class="caption">
+				                          				<h4>Aluminum RAW Material</h4>
+				                          				<div class="w3l-button hidden-xs">
+				                          					Ingot & Billet
+				                          				</div>
+				                          			</div>
+			                          			</a>
 			                          		</div>
 			                          	</li>
 
 			                          	<li class="span3">
 			                          		<div class="thumbnail clearfix">
-			                          			<img alt="260x130" src="../img/260_130/std.jpg">
-			                          			<div class="caption">
-			                          				<h4>Aluminum Mid Products</h4>
-			                          				<div class="w3l-button">
-			                          					<a class="hvr-shutter-out-vertical" href="standard.php">
-			                          						Extrusion
-			                          					</a>
-			                          					and 
-			                          					<a class="hvr-shutter-out-vertical toright" href="sheet.php">		Flat Rolled
-			                          					</a>
-													</div>
-			                          			</div>
+			                          			<a class="hvr-shutter-out-vertical" href="standard.php">
+				                          			<img alt="260x130" src="../img/260_130/std.jpg" class="hidden-xs">
+				                          			<div class="caption">
+				                          				<h4>Aluminum Extrusion</h4>
+				                          				<div class="w3l-button hidden-xs">
+				                          						Standard & Customized Extrusion
+														</div>
+				                          			</div>
+				                          		</a>
 			                          		</div>
 			                          	</li>
+										
+
+										<li class="span3">
+			                            	<div class="thumbnail clearfix">
+			                            		<a class="hvr-shutter-out-vertical" href="sheet.php">
+				                            		<img alt="260x130" src="../img/cp.png" class="hidden-xs">
+				                            		<div class="caption">
+				                            			<h4>Aluminum Sheets & Coils</h4>
+				                            			<div class="w3l-button hidden-xs">
+				                            				Plates/Sheets & Coils 
+				                            			</div>
+				                            		</div>
+				                            	</a>
+			                            	</div>
+			                            </li>
 
 			                            <li class="span3">
 			                            	<div class="thumbnail clearfix">
-			                            		<img alt="260x130" src="../img/260_130/steel.jpg">
-			                            		<div class="caption">
-			                            			<h4>Stainless Steel</h4>
-			                            			<div class="w3l-button">
-			                            				<a class="hvr-shutter-out-vertical" href="#">Coils & Sheets</a>
-			                            			</div>
-			                            		</div>
-			                            	</div>
-			                            </li>
-			                            <li class="span3">
-			                            	<div class="thumbnail clearfix">
-			                            		<img alt="260x130" src="../img/260_130/rail.jpg">
-			                            		<div class="caption">
-			                            			<h4>Finished Productso</h4>
-			                            			<div class="w3l-button">
-			                            				<a class="hvr-shutter-out-vertical" href="#">Railing</a>
-			                            			</div>
-			                            		</div>
+			                            		<a class="hvr-shutter-out-vertical" href="steel.php">
+				                            		<img alt="260x130" src="../img/260_130/steel.jpg" class="hidden-xs">
+				                            		<div class="caption">
+				                            			<h4>Stainless Steel</h4>
+				                            			<div class="w3l-button hidden-xs">
+				                            				Coils & Sheets 
+				                            			</div>
+				                            		</div>
+				                            	</a>
 			                            	</div>
 			                            </li>
 			                          </ul>
@@ -118,7 +104,7 @@
 							  
 						</li>
 						<li class="language">
-							<a class="fr" href="/fr/<?php echo basename($_SERVER['PHP_SELF']); ?>">FR</a>
+							<a class="fr" href="/sinobectrading/fr/<?php echo basename($_SERVER['PHP_SELF']); ?>">FR</a>
 						</li>
 					</ul>
 				</nav>

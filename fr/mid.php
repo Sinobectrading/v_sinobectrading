@@ -63,27 +63,27 @@
 
 				<div class="col-md-6 portfolio-grid_left">
 					<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-						<a href="../images/mid/1080_tube03.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-								<img src="../images/mid/424_475_03.jpg" class="img-responsive" alt="w3ls" />
+						<a href="sheet.php" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+								<img src="../images/mid/424_coil.jpg" class="img-responsive" alt="w3ls" />
 								<div class="p-mask">
-									<h4>Extrusions en aluminium</h4>
+									<h4>Feuilles en aluminium</h4>
  								</div>
 							</a>
 					</div>
 					<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-						<a href="../images/mid/painted004.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-								<img src="../images/mid/424_475_04.jpg" class="img-responsive" alt="w3ls" />
+						<a href="sheet.php" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+								<img src="../images/mid/424_plate.jpg" class="img-responsive" alt="w3ls" />
 								<div class="p-mask">
-									<h4>Extrusions en aluminium</h4>
+									<h4>Feuilles en aluminium</h4>
  								</div>
 							</a>
 					</div>
 				</div>
 				<div class="col-md-6 portfolio-grids gallery-grid1" data-aos="zoom-in">
-					<a href="../images/mid/rc001_1920_1080.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-							<img src="../images/mid/847_475_01.jpg" class="img-responsive" alt="w3ls" />
+					<a href="sheet.php" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+							<img src="../images/mid/847_plate.jpg" class="img-responsive" alt="w3ls" />
 							<div class="p-mask">
-									<h4>Extrusions en aluminium</h4>
+									<h4>Feuilles en aluminium</h4>
  								</div>
 						</a>
 				</div>

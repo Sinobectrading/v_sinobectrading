@@ -1974,6 +1974,12 @@ h3.agileits-icons-title {
     text-align: center;
     word-wrap: break-word;
 }
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+    .navbar-nav > li > .dropdown-menu {
+
+    }
+}
+
 @media only screen and (min-width: 1280px) and (max-width: 1366px) {
     .yamm-content .caption h4 {
         font-size: 14px
@@ -2034,6 +2040,19 @@ h3.agileits-icons-title {
     .services-breadcrumb .agile_inner_breadcrumb {
         margin-top: 200px
     }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language {
+        width: 50%;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language:last-child {
+        float: right;
+    }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language a {
+        padding: 2px 5px;
+        border: 0.5px solid #333; 
+        border-radius: 3px;
+     }
 }
 @media (max-width: 667px) {
     .test-grid h4 {
@@ -2052,6 +2071,19 @@ h3.agileits-icons-title {
     .services-breadcrumb .agile_inner_breadcrumb {
         margin-top: 200px
     }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language {
+        width: 50%;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language:last-child {
+        float: right;
+    }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language a {
+        padding: 2px 5px;
+        border: 0.5px solid #333; 
+        border-radius: 3px;
+     }
 }
 @media (max-width: 640px) {
     .icon-box {
@@ -2070,6 +2102,19 @@ h3.agileits-icons-title {
     .services-breadcrumb .agile_inner_breadcrumb {
         margin-top: 120px
     }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language {
+        width: 50%;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language:last-child {
+        float: right;
+    }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language a {
+        padding: 2px 5px;
+        border: 0.5px solid #333; 
+        border-radius: 3px;
+     }
 }
 
 @media (max-width: 480px) {
@@ -2103,7 +2148,7 @@ h3.agileits-icons-title {
    .navbar-nav>li.language>a {
     margin-top: 5px
    }
-   .thumbnail .caption h4 {
+   .yamm-content .thumbnail .caption h4 {
     font-size: 11px
    }
    .w3l-button a {
@@ -2119,12 +2164,23 @@ h3.agileits-icons-title {
       line-height: 1.2
     }
    #link-effect-2 ul.nav-mega.navbar-nav>li>a {
-    padding: 5px 0;
+    padding: 5px ;
     font-size: 0.8em
    }
-   #link-effect-2 ul.nav-mega.navbar-nav>li.language>a {
-    padding: 0px
-   }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language {
+        width: 50%;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language:last-child {
+        float: right;
+    }
+    #link-effect-2 ul.nav-mega.navbar-nav>li.language a {
+        padding: 2px 5px;
+        border: 0.5px solid #333; 
+        border-radius: 3px;
+     }
+ 
 }
 
 @media (max-width: 414px) {
@@ -2999,15 +3055,7 @@ ul.w3_short {
     background-size: 100%;
     background-attachment: fixed;
 }
-#steel {
-    background: url(../images/steel/steel.jpg) no-repeat 0px 0px;
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: 100%;
-    background-attachment: fixed;
-}
+ 
 #privacy {
     background: url(../images/terms.jpg)no-repeat 0px 0px;
      -webkit-background-size: cover;
@@ -4573,5 +4621,28 @@ body {
     padding-left: 0px ! important;
     padding-right: 0px ! important;
   }
-
-/*--//responsive--*/
+div.modal-body div.dataTables_wrapper .dataTables_paginate a.fg-button {
+    padding: 0 0.65em;
+    cursor: pointer;
+}
+div.modal-body div.dataTables_wrapper .dataTables_paginate {
+    margin: 0.5em 0
+}
+td.sorting:after {
+    display: none ! important;
+}
+div.ui-widget-header {
+    background: transparent;
+    border: 0px;
+    padding: 0.3em 0
+}
+table.dataTable thead td {
+    border : 0px ! important;
+}
+.abc > .visible-xs h5 {
+    text-align: center;
+    line-height: 3
+}
+.righttext .btn-default {
+    margin-top: 1em;
+}

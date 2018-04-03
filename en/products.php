@@ -71,7 +71,7 @@
 							<p>Sinobec also works closely with various mills to provide customized extrusions with reasonable lead time. We provide additional services, including die design, die making, logistics, customs clearance, storage and distribution.</p>
 							</p>
 							<div class="agileits-button two">
-								<a class="btn btn-primary btn-lg hvr-underline-from-left" href="mid.php" role="button">More Pictures »</a>
+								<a class="btn btn-primary btn-lg hvr-underline-from-left" href="standard.php" role="button">More Details »</a>
 							</div>
 						</div>
 						<div class="col-md-6 tab-info-img">
@@ -95,7 +95,7 @@
 							</p>
 						</div>
 						<div class="agileits-button two">
-							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="steel.php" role="button">More Pictures »</a>
+							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="steel.php" role="button">More Details »</a>
 						</div>
 						<div class="clearfix"></div>
 					</div>

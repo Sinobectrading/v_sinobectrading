@@ -76,10 +76,11 @@
 <script src="../js/p.js"></script>
 <script type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/holder/1.9.0/holder.js"></script>
 
-<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script src="../js/dataTable.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.jqueryui.min.js"></script>
-<script src="../js/dataTables.responsive.min.js"></script>
-<script src="../js/responsive.bootstrap.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.jqueryui.min.js"></script>
+
 
 
 <!-- <link rel="stylesheet " href="/sinobectrading/css/chocolat.css " type="text/css" media="all" /> -->
